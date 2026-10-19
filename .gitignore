@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Vector database
+qdrant_storage/
+chroma_db/
+
+# Cache
+.cache/
+
+data
+# Generated data
+data/processed/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Test
+.pytest_cache/
+.coverage
