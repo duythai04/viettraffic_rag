@@ -28,9 +28,31 @@ chroma_db/
 # Cache
 .cache/
 
-data
+
+# Raw legal documents
+data/raw/**/*.pdf
+
 # Generated data
 data/processed/
+
+# Vector databases
+qdrant_storage/
+chroma_db/
+
+# Environment
+.venv/
+.env
+
+# Cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+
+
 
 # Model weights
 *.pt
