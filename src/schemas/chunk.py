@@ -1,4 +1,4 @@
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
 
 
 @dataclass
@@ -12,6 +12,8 @@ class LegalChunk:
     content: str
     citation: str
     source: str
+    clause_preamble: str = ""
+    embedding_text: str = ""
 
     def to_dict(self) -> dict:
         return asdict(self)
