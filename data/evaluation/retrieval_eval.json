@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Q001",
+    "question": "Đi xe máy vượt đèn đỏ bị phạt bao nhiêu tiền?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-7_khoan-7_diem-c"],
+    "vehicle_type": "motorcycle",
+    "category": "traffic_light"
+  },
+  {
+    "id": "Q002",
+    "question": "Người điều khiển xe máy không đội mũ bảo hiểm bị xử phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-7_khoan-2_diem-h"],
+    "vehicle_type": "motorcycle",
+    "category": "helmet"
+  },
+  {
+    "id": "Q003",
+    "question": "Chở người ngồi sau xe máy không đội mũ bảo hiểm bị phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-7_khoan-2_diem-i"],
+    "vehicle_type": "motorcycle",
+    "category": "helmet"
+  },
+  {
+    "id": "Q004",
+    "question": "Ô tô chạy quá tốc độ từ 5 đến dưới 10 km/h bị phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-6_khoan-3_diem-a"],
+    "vehicle_type": "car",
+    "category": "speeding"
+  },
+  {
+    "id": "Q005",
+    "question": "Ô tô vượt quá tốc độ trên 20 đến 35 km/h bị xử phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-6_khoan-6_diem-a"],
+    "vehicle_type": "car",
+    "category": "speeding"
+  },
+  {
+    "id": "Q006",
+    "question": "Ô tô chạy quá tốc độ trên 35 km/h bị xử phạt ra sao?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-6_khoan-7_diem-a"],
+    "vehicle_type": "car",
+    "category": "speeding"
+  },
+  {
+    "id": "Q007",
+    "question": "Người đi bộ không chấp hành tín hiệu đèn giao thông bị xử phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-10_khoan-1_diem-b"],
+    "vehicle_type": "pedestrian",
+    "category": "traffic_light"
+  },
+  {
+    "id": "Q008",
+    "question": "Xe máy chuyên dùng vượt đèn đỏ bị phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-8_khoan-7_diem-c"],
+    "vehicle_type": "specialized_vehicle",
+    "category": "traffic_light"
+  },
+  {
+    "id": "Q009",
+    "question": "Xe máy không bật tín hiệu trước khi vượt xe bị xử phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-7_khoan-1_diem-b"],
+    "vehicle_type": "motorcycle",
+    "category": "overtaking"
+  },
+  {
+    "id": "Q010",
+    "question": "Xe máy không chấp hành hiệu lệnh của người điều khiển giao thông bị xử phạt thế nào?",
+    "expected_chunk_ids": ["168-2024-ND-CP_dieu-7_khoan-7_diem-d"],
+    "vehicle_type": "motorcycle",
+    "category": "traffic_control"
+  }
+]

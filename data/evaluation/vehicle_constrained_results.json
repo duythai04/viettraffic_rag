@@ -1,0 +1,265 @@
+{
+  "method": "vehicle_constrained_cross_encoder",
+  "summary": {
+    "hit@1": 0.6,
+    "hit@5": 0.9,
+    "recall@5": 0.9,
+    "precision@5": 0.18,
+    "mrr@10": 0.75
+  },
+  "results": [
+    {
+      "id": "Q001",
+      "question": "Đi xe máy vượt đèn đỏ bị phạt bao nhiêu tiền?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-c"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-d",
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-h",
+        "168-2024-ND-CP_dieu-15_khoan-1",
+        "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+        "168-2024-ND-CP_dieu-11_khoan-2_diem-a",
+        "168-2024-ND-CP_dieu-11_khoan-1_diem-b"
+      ],
+      "metrics": {
+        "hit@1": 0.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Q002",
+      "question": "Người điều khiển xe máy không đội mũ bảo hiểm bị xử phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-h"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+        "168-2024-ND-CP_dieu-7_khoan-3_diem-i",
+        "168-2024-ND-CP_dieu-7_khoan-5_diem-c",
+        "168-2024-ND-CP_dieu-7_khoan-5_diem-b",
+        "168-2024-ND-CP_dieu-19_khoan-1",
+        "168-2024-ND-CP_dieu-19_khoan-2",
+        "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+        "168-2024-ND-CP_dieu-13_khoan-1",
+        "168-2024-ND-CP_dieu-18_khoan-2_diem-b"
+      ],
+      "metrics": {
+        "hit@1": 0.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 0.5
+      }
+    },
+    {
+      "id": "Q003",
+      "question": "Chở người ngồi sau xe máy không đội mũ bảo hiểm bị phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-i"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-g",
+        "168-2024-ND-CP_dieu-7_khoan-3_diem-i",
+        "168-2024-ND-CP_dieu-7_khoan-5_diem-b",
+        "168-2024-ND-CP_dieu-19_khoan-1",
+        "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+        "168-2024-ND-CP_dieu-13_khoan-1",
+        "168-2024-ND-CP_dieu-19_khoan-2",
+        "168-2024-ND-CP_dieu-20_khoan-3_diem-h"
+      ],
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 1.0
+      }
+    },
+    {
+      "id": "Q004",
+      "question": "Ô tô chạy quá tốc độ từ 5 đến dưới 10 km/h bị phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-6_khoan-3_diem-a"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+        "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-3_diem-o",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-o",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-d",
+        "168-2024-ND-CP_dieu-6_khoan-10_diem-b",
+        "168-2024-ND-CP_dieu-13_khoan-5_diem-b"
+      ],
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 1.0
+      }
+    },
+    {
+      "id": "Q005",
+      "question": "Ô tô vượt quá tốc độ trên 20 đến 35 km/h bị xử phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-6_khoan-6_diem-a"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+        "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-d",
+        "168-2024-ND-CP_dieu-20_khoan-4",
+        "168-2024-ND-CP_dieu-32_khoan-15",
+        "168-2024-ND-CP_dieu-35_khoan-1"
+      ],
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 1.0
+      }
+    },
+    {
+      "id": "Q006",
+      "question": "Ô tô chạy quá tốc độ trên 35 km/h bị xử phạt ra sao?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-6_khoan-7_diem-a"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-6_khoan-12",
+        "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+        "168-2024-ND-CP_dieu-6_khoan-5_diem-d",
+        "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
+        "168-2024-ND-CP_dieu-6_khoan-11_diem-a",
+        "168-2024-ND-CP_dieu-35_khoan-1"
+      ],
+      "metrics": {
+        "hit@1": 0.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 0.5
+      }
+    },
+    {
+      "id": "Q007",
+      "question": "Người đi bộ không chấp hành tín hiệu đèn giao thông bị xử phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-10_khoan-1_diem-b"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-10_khoan-1_diem-b",
+        "168-2024-ND-CP_dieu-10_khoan-1_diem-a",
+        "168-2024-ND-CP_dieu-10_khoan-1_diem-c",
+        "168-2024-ND-CP_dieu-10_khoan-2_diem-c",
+        "168-2024-ND-CP_dieu-10_khoan-2_diem-a",
+        "168-2024-ND-CP_dieu-10_khoan-2_diem-b",
+        "168-2024-ND-CP_dieu-12_khoan-3",
+        "168-2024-ND-CP_dieu-12_khoan-10",
+        "168-2024-ND-CP_dieu-11_khoan-1_diem-b",
+        "168-2024-ND-CP_dieu-15_khoan-1"
+      ],
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 1.0
+      }
+    },
+    {
+      "id": "Q008",
+      "question": "Xe máy chuyên dùng vượt đèn đỏ bị phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-8_khoan-7_diem-c"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-8_khoan-3_diem-c",
+        "168-2024-ND-CP_dieu-8_khoan-3_diem-d",
+        "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+        "168-2024-ND-CP_dieu-8_khoan-1_diem-b",
+        "168-2024-ND-CP_dieu-8_khoan-9_diem-a",
+        "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+        "168-2024-ND-CP_dieu-8_khoan-3_diem-b",
+        "168-2024-ND-CP_dieu-8_khoan-5_diem-c",
+        "168-2024-ND-CP_dieu-8_khoan-4_diem-b",
+        "168-2024-ND-CP_dieu-15_khoan-1"
+      ],
+      "metrics": {
+        "hit@1": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0,
+        "precision@5": 0.0,
+        "mrr@10": 0.16666666666666666
+      }
+    },
+    {
+      "id": "Q009",
+      "question": "Xe máy không bật tín hiệu trước khi vượt xe bị xử phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-b"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-e",
+        "168-2024-ND-CP_dieu-7_khoan-4_diem-c",
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+        "168-2024-ND-CP_dieu-7_khoan-2_diem-đ",
+        "168-2024-ND-CP_dieu-7_khoan-3_diem-l",
+        "168-2024-ND-CP_dieu-15_khoan-1",
+        "168-2024-ND-CP_dieu-16_khoan-6",
+        "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+        "168-2024-ND-CP_dieu-16_khoan-5_diem-a"
+      ],
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 1.0
+      }
+    },
+    {
+      "id": "Q010",
+      "question": "Xe máy không chấp hành hiệu lệnh của người điều khiển giao thông bị xử phạt thế nào?",
+      "expected_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-d"
+      ],
+      "retrieved_chunk_ids": [
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-d",
+        "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+        "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+        "168-2024-ND-CP_dieu-11_khoan-2_diem-a"
+      ],
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0,
+        "precision@5": 0.2,
+        "mrr@10": 1.0
+      }
+    }
+  ]
+}

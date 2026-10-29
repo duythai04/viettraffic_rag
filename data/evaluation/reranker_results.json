@@ -1,0 +1,1270 @@
+{
+  "model": "BAAI/bge-reranker-v2-m3",
+  "candidate_k": 20,
+  "top_k": 10,
+  "total_questions": 10,
+  "baseline": {
+    "method": "vehicle_aware",
+    "summary": {
+      "hit@1": 0.8,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "mrr@10": 0.9
+    },
+    "results": [
+      {
+        "id": "Q001",
+        "question": "Đi xe máy vượt đèn đỏ bị phạt bao nhiêu tiền?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-h",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-d",
+          "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+          "168-2024-ND-CP_dieu-11_khoan-2_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q002",
+        "question": "Người điều khiển xe máy không đội mũ bảo hiểm bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-19_khoan-1",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+          "168-2024-ND-CP_dieu-18_khoan-2_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-3_diem-i",
+          "168-2024-ND-CP_dieu-36_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-13_khoan-1"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q003",
+        "question": "Chở người ngồi sau xe máy không đội mũ bảo hiểm bị phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+          "168-2024-ND-CP_dieu-19_khoan-1",
+          "168-2024-ND-CP_dieu-18_khoan-2_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-3_diem-i",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-g",
+          "168-2024-ND-CP_dieu-36_khoan-1_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q004",
+        "question": "Ô tô chạy quá tốc độ từ 5 đến dưới 10 km/h bị phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-o",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-4_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-10_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 0.5
+        }
+      },
+      {
+        "id": "Q005",
+        "question": "Ô tô vượt quá tốc độ trên 20 đến 35 km/h bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
+          "168-2024-ND-CP_dieu-20_khoan-4",
+          "168-2024-ND-CP_dieu-35_khoan-1",
+          "168-2024-ND-CP_dieu-7_khoan-4_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-8_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q006",
+        "question": "Ô tô chạy quá tốc độ trên 35 km/h bị xử phạt ra sao?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+          "168-2024-ND-CP_dieu-35_khoan-1",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-d",
+          "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-11_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-12"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 0.5
+        }
+      },
+      {
+        "id": "Q007",
+        "question": "Người đi bộ không chấp hành tín hiệu đèn giao thông bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-b"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-c",
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-15_khoan-1",
+          "168-2024-ND-CP_dieu-12_khoan-3",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-b",
+          "168-2024-ND-CP_dieu-10_khoan-2_diem-a",
+          "168-2024-ND-CP_dieu-10_khoan-2_diem-c"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q008",
+        "question": "Xe máy chuyên dùng vượt đèn đỏ bị phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-4_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-5_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-d",
+          "168-2024-ND-CP_dieu-8_khoan-9_diem-a",
+          "168-2024-ND-CP_dieu-11_khoan-2_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q009",
+        "question": "Xe máy không bật tín hiệu trước khi vượt xe bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-3_diem-l",
+          "168-2024-ND-CP_dieu-15_khoan-1",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-4_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-e",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-đ",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-36_khoan-2_diem-d"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      },
+      {
+        "id": "Q010",
+        "question": "Xe máy không chấp hành hiệu lệnh của người điều khiển giao thông bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-d"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-d",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-9_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-9_diem-d",
+          "168-2024-ND-CP_dieu-6_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-11_khoan-2_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        }
+      }
+    ]
+  },
+  "reranker": {
+    "method": "metadata_aware_cross_encoder",
+    "summary": {
+      "hit@1": 0.5,
+      "hit@5": 0.8,
+      "recall@5": 0.8,
+      "precision@5": 0.16,
+      "mrr@10": 0.6326190476190476
+    },
+    "results": [
+      {
+        "id": "Q001",
+        "question": "Đi xe máy vượt đèn đỏ bị phạt bao nhiêu tiền?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-15_khoan-1",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+          "168-2024-ND-CP_dieu-8_khoan-8_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 0.0,
+          "recall@5": 0.0,
+          "precision@5": 0.0,
+          "mrr@10": 0.1
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-15_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 15",
+            "rerank_score": 0.3492010235786438
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 7 Điều 8",
+            "rerank_score": 0.005030513741075993
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+            "vehicle_type": null,
+            "citation": "Điểm d Khoản 2 Điều 36",
+            "rerank_score": 0.00495406799018383
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-8_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 8 Điều 8",
+            "rerank_score": 0.00377751630730927
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 1 Điều 8",
+            "rerank_score": 0.003390856087207794
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm b Khoản 1 Điều 7",
+            "rerank_score": 0.0028896743897348642
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-b",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm b Khoản 3 Điều 8",
+            "rerank_score": 0.002590798307210207
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 3 Điều 8",
+            "rerank_score": 0.0022457444574683905
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm a Khoản 1 Điều 7",
+            "rerank_score": 0.0018042851006612182
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm c Khoản 7 Điều 7",
+            "rerank_score": 0.0016214719507843256
+          }
+        ]
+      },
+      {
+        "id": "Q002",
+        "question": "Người điều khiển xe máy không đội mũ bảo hiểm bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-19_khoan-1",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-19_khoan-2",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+          "168-2024-ND-CP_dieu-13_khoan-1",
+          "168-2024-ND-CP_dieu-18_khoan-2_diem-b",
+          "168-2024-ND-CP_dieu-18_khoan-4_diem-c"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 0.25
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-19_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 19",
+            "rerank_score": 0.9755356907844543
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm i Khoản 2 Điều 7",
+            "rerank_score": 0.9183418154716492
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+            "vehicle_type": "bicycle",
+            "citation": "Điểm đ Khoản 4 Điều 9",
+            "rerank_score": 0.8890950083732605
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm h Khoản 2 Điều 7",
+            "rerank_score": 0.7653970122337341
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-19_khoan-2",
+            "vehicle_type": null,
+            "citation": "Khoản 2 Điều 19",
+            "rerank_score": 0.6559658646583557
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+            "vehicle_type": null,
+            "citation": "Điểm b Khoản 5 Điều 12",
+            "rerank_score": 0.638988196849823
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+            "vehicle_type": "bicycle",
+            "citation": "Điểm d Khoản 4 Điều 9",
+            "rerank_score": 0.6270959973335266
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-13_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 13",
+            "rerank_score": 0.502617359161377
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-18_khoan-2_diem-b",
+            "vehicle_type": null,
+            "citation": "Điểm b Khoản 2 Điều 18",
+            "rerank_score": 0.13914813101291656
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-18_khoan-4_diem-c",
+            "vehicle_type": null,
+            "citation": "Điểm c Khoản 4 Điều 18",
+            "rerank_score": 0.05553129315376282
+          }
+        ]
+      },
+      {
+        "id": "Q003",
+        "question": "Chở người ngồi sau xe máy không đội mũ bảo hiểm bị phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+          "168-2024-ND-CP_dieu-19_khoan-1",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-13_khoan-1",
+          "168-2024-ND-CP_dieu-19_khoan-2",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-g",
+          "168-2024-ND-CP_dieu-9_khoan-1_diem-h"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm i Khoản 2 Điều 7",
+            "rerank_score": 0.9754151105880737
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+            "vehicle_type": "bicycle",
+            "citation": "Điểm đ Khoản 4 Điều 9",
+            "rerank_score": 0.9645195603370667
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-19_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 19",
+            "rerank_score": 0.7567618489265442
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm h Khoản 2 Điều 7",
+            "rerank_score": 0.33246925473213196
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+            "vehicle_type": "bicycle",
+            "citation": "Điểm d Khoản 4 Điều 9",
+            "rerank_score": 0.29861563444137573
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+            "vehicle_type": null,
+            "citation": "Điểm b Khoản 5 Điều 12",
+            "rerank_score": 0.28327393531799316
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-13_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 13",
+            "rerank_score": 0.14455243945121765
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-19_khoan-2",
+            "vehicle_type": null,
+            "citation": "Khoản 2 Điều 19",
+            "rerank_score": 0.08460591733455658
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-g",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm g Khoản 2 Điều 7",
+            "rerank_score": 0.07736149430274963
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-9_khoan-1_diem-h",
+            "vehicle_type": "bicycle",
+            "citation": "Điểm h Khoản 1 Điều 9",
+            "rerank_score": 0.04084637016057968
+          }
+        ]
+      },
+      {
+        "id": "Q004",
+        "question": "Ô tô chạy quá tốc độ từ 5 đến dưới 10 km/h bị phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-b",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+          "168-2024-ND-CP_dieu-8_khoan-4_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-4_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-o"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 3 Điều 6",
+            "rerank_score": 0.8334916234016418
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 3 Điều 8",
+            "rerank_score": 0.7257792353630066
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-b",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm b Khoản 2 Điều 7",
+            "rerank_score": 0.5774052143096924
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+            "vehicle_type": "car",
+            "citation": "Điểm đ Khoản 5 Điều 6",
+            "rerank_score": 0.5669609308242798
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-4_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 4 Điều 8",
+            "rerank_score": 0.3187739849090576
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-4_diem-a",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm a Khoản 4 Điều 7",
+            "rerank_score": 0.3030194342136383
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 10 Điều 6",
+            "rerank_score": 0.21604859828948975
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 7 Điều 6",
+            "rerank_score": 0.15550804138183594
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 6 Điều 6",
+            "rerank_score": 0.14172540605068207
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-3_diem-o",
+            "vehicle_type": "car",
+            "citation": "Điểm o Khoản 3 Điều 6",
+            "rerank_score": 0.08438698947429657
+          }
+        ]
+      },
+      {
+        "id": "Q005",
+        "question": "Ô tô vượt quá tốc độ trên 20 đến 35 km/h bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-20_khoan-4",
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+          "168-2024-ND-CP_dieu-32_khoan-15",
+          "168-2024-ND-CP_dieu-35_khoan-1",
+          "168-2024-ND-CP_dieu-20_khoan-2",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+          "168-2024-ND-CP_dieu-8_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-8_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-10_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 6 Điều 6",
+            "rerank_score": 0.7615960240364075
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-20_khoan-4",
+            "vehicle_type": null,
+            "citation": "Khoản 4 Điều 20",
+            "rerank_score": 0.6920368671417236
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 7 Điều 6",
+            "rerank_score": 0.6032013893127441
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-32_khoan-15",
+            "vehicle_type": null,
+            "citation": "Khoản 15 Điều 32",
+            "rerank_score": 0.60140460729599
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-35_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 35",
+            "rerank_score": 0.5786592960357666
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-20_khoan-2",
+            "vehicle_type": null,
+            "citation": "Khoản 2 Điều 20",
+            "rerank_score": 0.507768988609314
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+            "vehicle_type": "car",
+            "citation": "Điểm đ Khoản 5 Điều 6",
+            "rerank_score": 0.2675619423389435
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-6_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 6 Điều 8",
+            "rerank_score": 0.2038264125585556
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-8_diem-a",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm a Khoản 8 Điều 7",
+            "rerank_score": 0.1733732521533966
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 10 Điều 6",
+            "rerank_score": 0.1656571626663208
+          }
+        ]
+      },
+      {
+        "id": "Q006",
+        "question": "Ô tô chạy quá tốc độ trên 35 km/h bị xử phạt ra sao?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-12",
+          "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+          "168-2024-ND-CP_dieu-35_khoan-1",
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+          "168-2024-ND-CP_dieu-32_khoan-15",
+          "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-4_diem-a"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 0.5
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-12",
+            "vehicle_type": "car",
+            "citation": "Khoản 12 Điều 6",
+            "rerank_score": 0.8169912695884705
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-7_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 7 Điều 6",
+            "rerank_score": 0.7529987692832947
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-35_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 35",
+            "rerank_score": 0.737514078617096
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-6_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 6 Điều 6",
+            "rerank_score": 0.714353084564209
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-32_khoan-15",
+            "vehicle_type": null,
+            "citation": "Khoản 15 Điều 32",
+            "rerank_score": 0.4897470474243164
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-10_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 10 Điều 6",
+            "rerank_score": 0.1892174631357193
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-3_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 3 Điều 6",
+            "rerank_score": 0.11295632272958755
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-5_diem-đ",
+            "vehicle_type": "car",
+            "citation": "Điểm đ Khoản 5 Điều 6",
+            "rerank_score": 0.09666597843170166
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 3 Điều 8",
+            "rerank_score": 0.045388929545879364
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-4_diem-a",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm a Khoản 4 Điều 7",
+            "rerank_score": 0.04201389104127884
+          }
+        ]
+      },
+      {
+        "id": "Q007",
+        "question": "Người đi bộ không chấp hành tín hiệu đèn giao thông bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-b"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-12_khoan-3",
+          "168-2024-ND-CP_dieu-12_khoan-10",
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-11_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-15_khoan-1"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-10_khoan-1_diem-b",
+            "vehicle_type": "pedestrian",
+            "citation": "Điểm b Khoản 1 Điều 10",
+            "rerank_score": 0.8930474519729614
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-12_khoan-3",
+            "vehicle_type": null,
+            "citation": "Khoản 3 Điều 12",
+            "rerank_score": 0.8090761303901672
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-12_khoan-10",
+            "vehicle_type": null,
+            "citation": "Khoản 10 Điều 12",
+            "rerank_score": 0.48924943804740906
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-10_khoan-1_diem-a",
+            "vehicle_type": "pedestrian",
+            "citation": "Điểm a Khoản 1 Điều 10",
+            "rerank_score": 0.4608789086341858
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-10_khoan-1_diem-c",
+            "vehicle_type": "pedestrian",
+            "citation": "Điểm c Khoản 1 Điều 10",
+            "rerank_score": 0.3124617040157318
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm c Khoản 7 Điều 7",
+            "rerank_score": 0.21166472136974335
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-9_diem-b",
+            "vehicle_type": "car",
+            "citation": "Điểm b Khoản 9 Điều 6",
+            "rerank_score": 0.1733752340078354
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 7 Điều 8",
+            "rerank_score": 0.16183491051197052
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-11_khoan-1_diem-b",
+            "vehicle_type": null,
+            "citation": "Điểm b Khoản 1 Điều 11",
+            "rerank_score": 0.10654643923044205
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-15_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 15",
+            "rerank_score": 0.08157718181610107
+          }
+        ]
+      },
+      {
+        "id": "Q008",
+        "question": "Xe máy chuyên dùng vượt đèn đỏ bị phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-d",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-15_khoan-1",
+          "168-2024-ND-CP_dieu-8_khoan-9_diem-a",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-3_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-5_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-4_diem-b"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 0.0,
+          "recall@5": 0.0,
+          "precision@5": 0.0,
+          "mrr@10": 0.14285714285714285
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 3 Điều 8",
+            "rerank_score": 0.2625730335712433
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-d",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm d Khoản 3 Điều 8",
+            "rerank_score": 0.2579505443572998
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 1 Điều 8",
+            "rerank_score": 0.21062171459197998
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-1_diem-b",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm b Khoản 1 Điều 8",
+            "rerank_score": 0.2020261436700821
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-15_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 15",
+            "rerank_score": 0.1925472766160965
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-9_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 9 Điều 8",
+            "rerank_score": 0.1628347635269165
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 7 Điều 8",
+            "rerank_score": 0.14452452957630157
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-3_diem-b",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm b Khoản 3 Điều 8",
+            "rerank_score": 0.1293424516916275
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-5_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 5 Điều 8",
+            "rerank_score": 0.07662536948919296
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-4_diem-b",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm b Khoản 4 Điều 8",
+            "rerank_score": 0.06693200021982193
+          }
+        ]
+      },
+      {
+        "id": "Q009",
+        "question": "Xe máy không bật tín hiệu trước khi vượt xe bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-6_khoan-5_diem-a",
+          "168-2024-ND-CP_dieu-15_khoan-1",
+          "168-2024-ND-CP_dieu-8_khoan-6_diem-h",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-e",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-16_khoan-6",
+          "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+          "168-2024-ND-CP_dieu-7_khoan-4_diem-c"
+        ],
+        "metrics": {
+          "hit@1": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 1.0
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm b Khoản 1 Điều 7",
+            "rerank_score": 0.808635413646698
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-5_diem-a",
+            "vehicle_type": "car",
+            "citation": "Điểm a Khoản 5 Điều 6",
+            "rerank_score": 0.6586552262306213
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-15_khoan-1",
+            "vehicle_type": null,
+            "citation": "Khoản 1 Điều 15",
+            "rerank_score": 0.5834394097328186
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-6_diem-h",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm h Khoản 6 Điều 8",
+            "rerank_score": 0.4799012243747711
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-1_diem-b",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm b Khoản 1 Điều 8",
+            "rerank_score": 0.38589680194854736
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-1_diem-e",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm e Khoản 1 Điều 7",
+            "rerank_score": 0.2832784950733185
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 7 Điều 8",
+            "rerank_score": 0.23634696006774902
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-16_khoan-6",
+            "vehicle_type": null,
+            "citation": "Khoản 6 Điều 16",
+            "rerank_score": 0.21451497077941895
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-36_khoan-2_diem-d",
+            "vehicle_type": null,
+            "citation": "Điểm d Khoản 2 Điều 36",
+            "rerank_score": 0.186931312084198
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-4_diem-c",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm c Khoản 4 Điều 7",
+            "rerank_score": 0.13929806649684906
+          }
+        ]
+      },
+      {
+        "id": "Q010",
+        "question": "Xe máy không chấp hành hiệu lệnh của người điều khiển giao thông bị xử phạt thế nào?",
+        "expected_chunk_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-d"
+        ],
+        "retrieved_chunk_ids": [
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-b",
+          "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-d",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-c",
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-11_khoan-2_diem-a",
+          "168-2024-ND-CP_dieu-10_khoan-1_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-9_khoan-2_diem-b"
+        ],
+        "metrics": {
+          "hit@1": 0.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "precision@5": 0.2,
+          "mrr@10": 0.3333333333333333
+        },
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-7_diem-b",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm b Khoản 7 Điều 8",
+            "rerank_score": 0.8564820885658264
+          },
+          {
+            "rank": 2,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-1_diem-a",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm a Khoản 1 Điều 8",
+            "rerank_score": 0.8261516690254211
+          },
+          {
+            "rank": 3,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-7_diem-d",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm d Khoản 7 Điều 7",
+            "rerank_score": 0.7324627041816711
+          },
+          {
+            "rank": 4,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm a Khoản 1 Điều 7",
+            "rerank_score": 0.7140305042266846
+          },
+          {
+            "rank": 5,
+            "chunk_id": "168-2024-ND-CP_dieu-6_khoan-9_diem-c",
+            "vehicle_type": "car",
+            "citation": "Điểm c Khoản 9 Điều 6",
+            "rerank_score": 0.6485329270362854
+          },
+          {
+            "rank": 6,
+            "chunk_id": "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+            "vehicle_type": "specialized_vehicle",
+            "citation": "Điểm c Khoản 7 Điều 8",
+            "rerank_score": 0.6157116293907166
+          },
+          {
+            "rank": 7,
+            "chunk_id": "168-2024-ND-CP_dieu-11_khoan-2_diem-a",
+            "vehicle_type": null,
+            "citation": "Điểm a Khoản 2 Điều 11",
+            "rerank_score": 0.5532717704772949
+          },
+          {
+            "rank": 8,
+            "chunk_id": "168-2024-ND-CP_dieu-10_khoan-1_diem-c",
+            "vehicle_type": "pedestrian",
+            "citation": "Điểm c Khoản 1 Điều 10",
+            "rerank_score": 0.5289644002914429
+          },
+          {
+            "rank": 9,
+            "chunk_id": "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+            "vehicle_type": "motorcycle",
+            "citation": "Điểm c Khoản 7 Điều 7",
+            "rerank_score": 0.4697093963623047
+          },
+          {
+            "rank": 10,
+            "chunk_id": "168-2024-ND-CP_dieu-9_khoan-2_diem-b",
+            "vehicle_type": "bicycle",
+            "citation": "Điểm b Khoản 2 Điều 9",
+            "rerank_score": 0.459697425365448
+          }
+        ]
+      }
+    ]
+  }
+}
