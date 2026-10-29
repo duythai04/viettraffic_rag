@@ -1,0 +1,892 @@
+[
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-10",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 4.000.000 đồng đến 6. 000.000 đồng đối với cá nhân, từ\n8.000.000 đồng đến 12.000.000 đồng đối với tổ chức thực hiện hành vi không chấp\nhành yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an\ntoàn giao thông đường bộ, trừ các hành vi vi phạm quy định tại điểm b, điểm d\nkhoản 11 Điều 6; điểm đ, điểm g khoản 9 Điều 7; điểm b, điểm d khoản 9 Điều 8;\nđiểm c khoản 4 Điều 9; điểm b khoản 5 Điều 34 của Nghị định này.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-12",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 10.000.000 đồng đến 15. 000.000 đồng đối với cá nhân, từ\n20.000.000 đồng đến 30.000.000 đồng đối với tổ chức thực hiện hành vi Sử dụng\ntạm thời lòng đường, vỉa hè vào mục đích khác (theo quy định phải có giấy phép)\nmà không có giấy phép hoặc có giấy phép nhưng đã hết giá trị sử dụng hoặc thực\nhiện không đúng nội dung ghi trong giấy phép.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-13",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 30.000.000 đồng đến 32. 000.000 đồng đối với cá nhân, từ\n60.000.000 đồng đến 64.000.000 đồng đối với tô chức thực hiện hành vi không\nkhai báo, khai báo gian dối hoặc cung cấp thông tin, tài liệu không đúng sự thật\ndé trốn tránh trách nhiệm khi bị phát hiện vi phạm pháp luật về trật tự, an toàn\ngiao thông đường bộ.\n\n33",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-6",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 500.000 đồng đến\n1. 000.000 đồng đối với cá nhân, từ\n1.000.000 đồng đến 2.000.000 đồng đối với tổ chức thực hiện một trong các hành\nvi vi phạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-8",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phat tiền từ 2. 000.000 đồng đến 4. 000.000 đồng đối với cá nhân, từ\n4.000.000 đồng đến 8.000.000 đồng đối với tổ chức cô ý thay đổi, xóa dấu vết\nhiện trường vụ tai nạn giao thông, trừ các hành vi vi phạm quy định tại điểm g\nkhoản 4, khoản 8 Điều 6; điểm b khoản 5, điểm c khoản 9 Điêu 7; điểm d khoản\n5, điểm c khoản 8 Điều 8; điểm al khoản 4 Điều 9 của Nghị định này.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-9",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 3.000.000 đồng đến 5.000. 000 đồng đối với cá nhân, từ\n6.000.000 đồng đến 10.000.000 đồng đối với tổ chức thực hiện hành vi bảy,\nbán máy móc, thiết bị, vật tư hoặc sản xuất, gia công hàng hóa trên lòng đường,\nvỉa hè.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-17_khoan-1",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 500. 000 đồng đến 1.000.000 đồng đối với hành vi điều khiển\nxe không đáp ứng yêu cầu về vệ sinh lưu thông trong đồ thị.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-17_khoan-3",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 4. 000.000 đồng đến 6.000.000 đồng đối với người điều khiển\nxe dé trái phép rác, đất, cát, đá, vật liệu, chất phế thải trong phạm vi đất dành cho\n`.\nđường bộ ở đoạn đường ngoài đô thị.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-20_khoan-4",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 1.000.000 đồng đến 2.000. 000 đồng trên mỗi người vượt quá\nquy định được phép chở của : phương tiện những tong mức phạt tiền tối da không\nvượt quá 75.000.000 đồng đối với người điều khiển xe ô tô chở hành khách (kinh\ndoanh vận tai hành khách theo tuyến cé định, hợp đồng) chạy tuyến có cự ly lớn\nhơn 300 km thực hiện hành vi vi phạm chở quá số người quy định được phép chở\ncủa phương tiện.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-22_khoan-2",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phat tién tir 8.000. 000 đồng\n¢ đến 10.000.000 đồng đối với hành vi chở hàng\nsiêu trường, siêu trọng có giấy phép, ‘wu hành còn giá trị sử dụng nhưng kích thước\nbao ngoài của xe (sau khi đã xếp hàng lên xe) vượt quá quy định trong giấy phép\nlưu hành.\n|",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-25_khoan-1",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 2. 000.000 đồng đến 3.000.000 đồng đối với hành vi điều khiển\nxe không chạy đúng tuyến, phạm vi, thời gian quy định.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-1",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 500.000 đồng đến\n1. 000.000 đồng đối với cá nhân, từ\n1.000.000 đồng đến 2.000.000 đồng đối với tổ chức thực hiện một trong các hành\nvị vi phạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-11",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 40.000.000 đồng đến 50. 000.000 đồng đối với cá nhân, từ\n80.000.000 đồng đến 100.000.000 đồng đối với té chức kinh doanh vận tải, dịch\nvụ hỗ trợ vận tải tái phạm hành vi quy định tại điểm 8, điểm h khoản 7 Điều này.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-2",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 1.000.000 đồng đến 2. 000.000 đồng đối với cá nhân, từ\n2.000.000 đồng đến 4.000.000 đồng đối với tổ chức kinh doanh vận tải, dich vụ\nhỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-6",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 4.000.000 đồng đến 6. 000.000 đồng đối với cá nhân, từ\n8.000.000 đồng đến 12.000.000 đồng đối với tổ chức kinh doanh vận tải thực hiện\nmột trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-27_khoan-2",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 2.000.000 đồng đến 3. 000.000 đồng đối với hành vi điều khiến\nxe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học, xe ô tô kinh.\n` doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh tiểu học\n“khong có hoặc không đủ người quan lý trên mỗi xe ô tô theo quy định. ‘tai khoan\n“3 Điều 46 của Luật Trật tự, an toàn giao thông đường bộ.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-10",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 8.000.000 đồng đến 10. 000.000 đồng đối với cá nhân, từ\n16.000.000 đồng đến 20.000.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn\nmáy và các loại xe tương tự xe mô tô, các loại xe tương | tự xe gắn máy thực hiện\nhành vi vi phạm giao xe hoặc để cho người không đủ điều kiện theo quy định tại\nkhoản\n1 Điều 56 của Luật Trật ty,’ 'an toàn giao thông đường bộ điều khiến xe\ntham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có\ngiấy phép lái xe nhưng đang trong thời gian bị tước quyền sử dụng).",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-13",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 20.000.000 đồng đến 26. 000.000 đồng đổi với cá nhân, từ\n40.000.000 đồng đến 52.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy\nchuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi\nphạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-14",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 28.000.000 đồng đến 30. 000.000 đồng đối với cá nhân, từ\n56.000.000 đồng đến 60.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở\nngười bốn bánh có gắn động cơ, xe chớ hàng bốn bánh có gắn động cơ, xe máy\nchuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi\nphạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-3",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 800.000 đồng đến\n1. 000.000 đồng đối với\ncá nhân, từ\n1.600.000 đồng đến 2.000.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy\nvà các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện một\ntrong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-4",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 800.000 đồng đến\n1. 000.000 đồng đối với cá nhân, tử\n1.600.000 đồng đến 2.000.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy\nvà các loại xe tương tự xe mô tô, các loại xe tương tự xe gan may khéng thuc hién\nđúng quy định về biển số, trừ các hành vi vi phạm quy định tại điểm g, điểm h khoản\n8 Điều này.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-5",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng trên mỗi người vượt quá\nquy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không\nvượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 1.600.000 đồng\n\n65\nđến 2.400. 000 đồng trên mỗi người vượt quá quy định được phép chở của phương\ntiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với\nchủ phương tiện là tổ chức giao phương tiện hoặc dé cho người làm công, người\nđại điện điều khiến phương tiện thực hiện hành vi vi phạm quy định tại khoản 2\nĐiều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành\nvi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-6",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 2.000.000 đồng đến 4.000. 000 đồng trên mỗi người vượt quá\nquy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không\nvượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 4.000.000 đồng\nđến 8.000. 000 đồng trên mỗi người vượt quá quy định được phép chở của phương\ntiện nhưng tông mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với\nchủ phương tiện là tô chức giao phương tiện hoặc để cho người làm công, người\nđại điện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 4\nĐiều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hanh\nvi vi phạm quy định tại khoản 4 Điều 20 của Nghị định này.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-35_khoan-2",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phat tiền từ 40.000.000 đồng đến 50. 000.000 đồng đối với cá nhân, từ\n80.000.000 đồng đến 100.000.000 đồng đối với tổ chức thực hiện hành vi vi phạm\ntô chức đua xe trái phép.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-39_khoan-6",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "broken_thousands_separator"
+    ],
+    "ocr_text": "Phạt tiền từ 15.000.000 đồ\nxe trở lên.\nDg đến 20. 000.000 đồng đối với cá nhân, từ\n30.000.000 đồng đến 40.000.000 đồng đối với tô chức thực hiện hành vi tổ chức\ntuyển sinh, đào tạo lái xe mà không có giấy phép đào tạo lái xe.",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-6_khoan-3",
+    "audit_status": "suspicious_ocr",
+    "issues": [
+      "stray_digit_near_amount"
+    ],
+    "ocr_text": "Phạt tiền từ 800.000 đồng đến 1.000.000\n0\nđồng đối với người điều khiển\nxe thực hiện một trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-3",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 250.000 đồng đến 350.000 đồng đối với cá nhân, từ 500.000\nđồng đến 700.000 đồng đối với tô chức để vật che khuất biển báo hiệu đường bộ,\nđèn tín hiệu giao thông.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 250000,
+        "max_vnd": 350000,
+        "recipient_hint": "individual",
+        "matched_text": "250.000 đồng đến 350.000 đồng"
+      },
+      {
+        "min_vnd": 500000,
+        "max_vnd": 700000,
+        "recipient_hint": "organization",
+        "matched_text": "500.000\nđồng đến 700.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-12_khoan-7",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với cá nhân, từ\n4.000.000 đồng đến 6.000.000 đồng đối với tổ chức thực hiện hành vi sử dụng\ntrái phép lòng đường, vỉa hè dé: họp chợ; kinh doanh dịch vụ ăn uông; bay, bán\n\n32\nhàng hóa; sửa chữa phương tiện, máy móc, thiết bi; rửa xe; đặt, treo biên hiệu,\nbiển quảng cáo.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 2000000,
+        "max_vnd": 3000000,
+        "recipient_hint": "individual",
+        "matched_text": "2.000.000 đồng đến 3.000.000 đồng"
+      },
+      {
+        "min_vnd": 4000000,
+        "max_vnd": 6000000,
+        "recipient_hint": "organization",
+        "matched_text": "4.000.000 đồng đến 6.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-3",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với cá nhân, từ\n4.000.000 đồng đến 6.000.000 đồng đối với tổ chức thực hiện hành vi vi phạm\nxếp hàng hóa lên mỗi xe 6 tô (kế cả ro moóc và sơ mi ro moóc) vượt quá trọng\ntai (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong\ngiấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên\n50% đến 100%.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 2000000,
+        "max_vnd": 3000000,
+        "recipient_hint": "individual",
+        "matched_text": "2.000.000 đồng đến 3.000.000 đồng"
+      },
+      {
+        "min_vnd": 4000000,
+        "max_vnd": 6000000,
+        "recipient_hint": "organization",
+        "matched_text": "4.000.000 đồng đến 6.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-4",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 3.000.000 đồng đến 4.000.000 đồng đối với cá nhân, từ\n6.000.000 đông đên 8.000.000 đồng đối với tô chức kinh doanh vận tải, dich vụ\nhỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 3000000,
+        "max_vnd": 4000000,
+        "recipient_hint": "individual",
+        "matched_text": "3.000.000 đồng đến 4.000.000 đồng"
+      },
+      {
+        "min_vnd": 6000000,
+        "max_vnd": 8000000,
+        "recipient_hint": "organization",
+        "matched_text": "6.000.000 đông đên 8.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-5",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 4.000.000 đồng đến 5.000.000 đồng đối với cá nhân, từ\n8.000.000 đồng đến 10.000.000 đồng đối với tổ chức xếp hàng hóa lên mỗi xe 6\n\n58\ntô (kế cả ro moóc và sơ mi ro moó©) vượt quá trọng tải (khối lượng hàng chuyên\nchở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an\ntoàn kỹ thuật và bảo vệ môi trường của xe trên 100%.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 4000000,
+        "max_vnd": 5000000,
+        "recipient_hint": "individual",
+        "matched_text": "4.000.000 đồng đến 5.000.000 đồng"
+      },
+      {
+        "min_vnd": 8000000,
+        "max_vnd": 10000000,
+        "recipient_hint": "organization",
+        "matched_text": "8.000.000 đồng đến 10.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-26_khoan-8",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ\n20.000.000 đồng đến 24.000.000 đồng đối với tổ chức kinh đoanh vận tải, dịch\nvụ hỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:\n.a) Không tổ chức khám sức khỏe định kỳ cho lái xe theo quy định hoặc có\ntô chức khám nhưng không đây đủ các nội dung theo quy định;\n:b) Vi phạm quy định về kinh doanh, điều kiện kinh doanh vận tải bằng xe ô\ntô dé xảy ra tai nan giao thông gây hậu qua từ mức nghiêm trọng trở lên;",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 10000000,
+        "max_vnd": 12000000,
+        "recipient_hint": "individual",
+        "matched_text": "10.000.000 đồng đến 12.000.000 đồng"
+      },
+      {
+        "min_vnd": 20000000,
+        "max_vnd": 24000000,
+        "recipient_hint": "organization",
+        "matched_text": "20.000.000 đồng đến 24.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-31_khoan-1",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ\n20.000.000 đồng đến 24.000.000 đồng đối với tổ chức thực hiện hành vi mua, bán\nbiển số xe không phải là biển số do cơ quan nhà nước có thấm quyền sản xuất\nhoặc không được cơ quan nhà nước có thấm quyền cho phép.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 10000000,
+        "max_vnd": 12000000,
+        "recipient_hint": "individual",
+        "matched_text": "10.000.000 đồng đến 12.000.000 đồng"
+      },
+      {
+        "min_vnd": 20000000,
+        "max_vnd": 24000000,
+        "recipient_hint": "organization",
+        "matched_text": "20.000.000 đồng đến 24.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-31_khoan-2",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với cá nhân, từ\n80.000.000 đồng đến 100.000.000 đồng đối với tổ chức thực hiện hành vi sản xuất\nbiển số trái phép hoặc sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới\nđường bộ.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 40000000,
+        "max_vnd": 50000000,
+        "recipient_hint": "individual",
+        "matched_text": "40.000.000 đồng đến 50.000.000 đồng"
+      },
+      {
+        "min_vnd": 80000000,
+        "max_vnd": 100000000,
+        "recipient_hint": "organization",
+        "matched_text": "80.000.000 đồng đến 100.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-1",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 200.000 đồng đến 300.000 đồng đối với cá nhân, từ 400.000\nđồng đến 600.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy và các loại\nxe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện một trong các\nhành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 200000,
+        "max_vnd": 300000,
+        "recipient_hint": "individual",
+        "matched_text": "200.000 đồng đến 300.000 đồng"
+      },
+      {
+        "min_vnd": 400000,
+        "max_vnd": 600000,
+        "recipient_hint": "organization",
+        "matched_text": "400.000\nđồng đến 600.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-11",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ\n20.000.000 đồng đến 24.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở\nngười bến bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy\nchuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi\nphạm sau đây:\n_a) Đưa xe cơ giới, xe máy chuyên dùng không\n| có giấy chứng nhận hoặc tem\nkiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải\nkiểm định) hoặc có nhưng đã hết hiệu lực (hạn sử dụng) từ 01 tháng trở lên (kể cả\nro moóc va sơ mi ro moóc) tham gia giao thông:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 10000000,
+        "max_vnd": 12000000,
+        "recipient_hint": "individual",
+        "matched_text": "10.000.000 đồng đến 12.000.000 đồng"
+      },
+      {
+        "min_vnd": 20000000,
+        "max_vnd": 24000000,
+        "recipient_hint": "organization",
+        "matched_text": "20.000.000 đồng đến 24.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-12",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng đối với cá nhân, từ\n32.000.000 đồng đến 36.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở người\nbốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên\ndùng và các loại xe tương tự xe ô tô, phương tiện giao thông thông minh thực hiện\nmột trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 16000000,
+        "max_vnd": 18000000,
+        "recipient_hint": "individual",
+        "matched_text": "16.000.000 đồng đến 18.000.000 đồng"
+      },
+      {
+        "min_vnd": 32000000,
+        "max_vnd": 36000000,
+        "recipient_hint": "organization",
+        "matched_text": "32.000.000 đồng đến 36.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-15",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng đối với cá nhân, từ\n60.000.000 đồng đến 80.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy\nchuyên dùng và các loại xe tương tự xe ô tô khi giao phương tiện hoặc để cho\nngười làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm\nquy định tại khoản 7 Điều 21 của Nghị định này hoặc trực tiếp điều khiển\nphương tiện thực hiện hành vỉ vi phạm quy định tại khoản 7 Điều 21 của Nghị\nđịnh này.",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 30000000,
+        "max_vnd": 40000000,
+        "recipient_hint": "individual",
+        "matched_text": "30.000.000 đồng đến 40.000.000 đồng"
+      },
+      {
+        "min_vnd": 60000000,
+        "max_vnd": 80000000,
+        "recipient_hint": "organization",
+        "matched_text": "60.000.000 đồng đến 80.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-16",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 65.000.000 đồng đến 75.000.000 đồng đối với cá nhân, từ\n130.000.000 đồng đến 150.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy\nchuyên dùng và các loại xe tương tự xe ô tô khi thực hiện một trong các hành vi\nvi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 65000000,
+        "max_vnd": 75000000,
+        "recipient_hint": "individual",
+        "matched_text": "65.000.000 đồng đến 75.000.000 đồng"
+      },
+      {
+        "min_vnd": 130000000,
+        "max_vnd": 150000000,
+        "recipient_hint": "organization",
+        "matched_text": "130.000.000 đồng đến 150.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-2",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với cá nhân, từ 600.000\nđồng đến 800.000 đồng đối với tổ chức là chủ xe ô tô, xe chở người bốn bánh có\ngắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các\nloại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 300000,
+        "max_vnd": 400000,
+        "recipient_hint": "individual",
+        "matched_text": "300.000 đồng đến 400.000 đồng"
+      },
+      {
+        "min_vnd": 600000,
+        "max_vnd": 800000,
+        "recipient_hint": "organization",
+        "matched_text": "600.000\nđồng đến 800.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-7",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000\nđồng đến 12.000.000 đồng đối với tổ chức là chủ xe ô tô (kế cả rơ moóc và SƠ mi ro\nmoóc), xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động\nCƠ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các\nhành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 4000000,
+        "max_vnd": 6000000,
+        "recipient_hint": "individual",
+        "matched_text": "4.000.000 đồng đến 6.000.000 đồng"
+      },
+      {
+        "min_vnd": 8000000,
+        "max_vnd": 12000000,
+        "recipient_hint": "organization",
+        "matched_text": "8.000.000\nđồng đến 12.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  },
+  {
+    "clause_id": "168-2024-ND-CP_dieu-32_khoan-9",
+    "audit_status": "multiple_fines",
+    "issues": [],
+    "ocr_text": "Phat tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000\nđồng đến 12.000.000 đồng đối với tổ chức là chủ xe 6 tô, xe chở người bốn bánh có\ngắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại\nxe tương tự xe 6 tô thực hiện một trong các hành vi vi phạm sau đây:",
+    "suggested_fines_unverified": [
+      {
+        "min_vnd": 4000000,
+        "max_vnd": 6000000,
+        "recipient_hint": "individual",
+        "matched_text": "4.000.000 đồng đến 6.000.000 đồng"
+      },
+      {
+        "min_vnd": 8000000,
+        "max_vnd": 12000000,
+        "recipient_hint": "organization",
+        "matched_text": "8.000.000\nđồng đến 12.000.000 đồng"
+      }
+    ],
+    "fine_ranges": [],
+    "source_reference": "",
+    "source_document": "",
+    "verified_by": "",
+    "verification_note": "",
+    "effective_from": "",
+    "effective_to": null,
+    "review_confirmed": false
+  }
+]

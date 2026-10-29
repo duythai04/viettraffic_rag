@@ -1,0 +1,1271 @@
+﻿clause_id,chunk_count,status,issues,fine_ranges,source_text
+168-2024-ND-CP_dieu-10_khoan-1,3,extracted_unverified,[],"[{""min_vnd"": 150000, ""max_vnd"": 250000, ""recipient_hint"": null, ""matched_text"": ""150.000 đồng đến 250.000 đồng""}]","Phạt tiền từ 150.000 đồng đến 250.000 đồng đối với người đi bộ thực hiện
+một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-10_khoan-2,3,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người đi bộ thực hiện
+một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-11_khoan-1,7,extracted_unverified,[],"[{""min_vnd"": 150000, ""max_vnd"": 250000, ""recipient_hint"": null, ""matched_text"": ""150.000 đồng đến 250.000 đồng""}]","Phạt.tiền từ 150.000 đồng đến 250.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-11_khoan-2,3,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-11_khoan-3,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển,
+dẫn dắt vật nuôi, điều khiển xe vật nuôi kéo đi vào đường cao tốc."
+168-2024-ND-CP_dieu-12_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 100000, ""max_vnd"": 200000, ""recipient_hint"": null, ""matched_text"": ""100.000 đồng đến 200.000 đồng""}]","Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với người được chở trên
+xe đạp, xe đạp máy sử dụng ô (dù)|"
+168-2024-ND-CP_dieu-12_khoan-10,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 4.000.000 đồng đến 6. 000.000 đồng đối với cá nhân, từ
+8.000.000 đồng đến 12.000.000 đồng đối với tổ chức thực hiện hành vi không chấp
+hành yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an
+toàn giao thông đường bộ, trừ các hành vi vi phạm quy định tại điểm b, điểm d
+khoản 11 Điều 6; điểm đ, điểm g khoản 9 Điều 7; điểm b, điểm d khoản 9 Điều 8;
+điểm c khoản 4 Điều 9; điểm b khoản 5 Điều 34 của Nghị định này."
+168-2024-ND-CP_dieu-12_khoan-11,3,extracted_unverified,[],"[{""min_vnd"": 6000000, ""max_vnd"": 8000000, ""recipient_hint"": ""individual"", ""matched_text"": ""6.000.000 đồng đến 8.000.000 đồng""}]","Phat tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với cá nhân thực
+hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-12_khoan-12,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 10.000.000 đồng đến 15. 000.000 đồng đối với cá nhân, từ
+20.000.000 đồng đến 30.000.000 đồng đối với tổ chức thực hiện hành vi Sử dụng
+tạm thời lòng đường, vỉa hè vào mục đích khác (theo quy định phải có giấy phép)
+mà không có giấy phép hoặc có giấy phép nhưng đã hết giá trị sử dụng hoặc thực
+hiện không đúng nội dung ghi trong giấy phép."
+168-2024-ND-CP_dieu-12_khoan-13,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 30.000.000 đồng đến 32. 000.000 đồng đối với cá nhân, từ
+60.000.000 đồng đến 64.000.000 đồng đối với tô chức thực hiện hành vi không
+khai báo, khai báo gian dối hoặc cung cấp thông tin, tài liệu không đúng sự thật
+dé trốn tránh trách nhiệm khi bị phát hiện vi phạm pháp luật về trật tự, an toàn
+giao thông đường bộ.
+
+33"
+168-2024-ND-CP_dieu-12_khoan-14,2,extracted_unverified,[],"[{""min_vnd"": 35000000, ""max_vnd"": 37000000, ""recipient_hint"": ""individual"", ""matched_text"": ""35.000.000 đồng đến 37.000.000 đồng""}]","Phạt tiền từ 35.000.000 đồng đến 37.000.000 đồng đối với cá nhân thực
+hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-12_khoan-15,1,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, cá nhân thực hiện hành vi quy định tại khoản 14
+Điều này nếu là người điều khiển phương tiện còn bị áp dụng hình thức xử phạt
+bé sung tước quyền sử dụng giấy phép lái xe từ 22 tháng đến 24 tháng."
+168-2024-ND-CP_dieu-12_khoan-16,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành
+vi vi phạm còn bi áp dung các biện pháp khắc phục hậu quả sau đây:
+.8) Thực hiện hành vi quy định tại khoản 3 Điều này buộc phá dỡ các vật che
+khuất biên báo hiệu đường bộ, đèn tín hiệu giao thông;"
+168-2024-ND-CP_dieu-12_khoan-17,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân thực hiện hành vi quy
+định tại điểm a, điểm b khoản 11 Điều này nếu là người điều khiển phương tiện
+bị trừ điểm giấy phép lái xe 02 điểm.
+Mục 2
+VỊ PHẠM QUY ĐỊNH VE PHƯƠNG TIEN
+THAM GIA GIAO THONG DUONG BO"
+168-2024-ND-CP_dieu-12_khoan-2,7,extracted_unverified,[],"[{""min_vnd"": 200000, ""max_vnd"": 250000, ""recipient_hint"": ""individual"", ""matched_text"": ""200.000 đồng đến 250.000 đồng""}]","Phạt tiền từ 200.000 đồng đến 250.000 đồng đối với cá nhân thực hiện một
+trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-12_khoan-3,1,multiple_fines,[],"[{""min_vnd"": 250000, ""max_vnd"": 350000, ""recipient_hint"": ""individual"", ""matched_text"": ""250.000 đồng đến 350.000 đồng""}, {""min_vnd"": 500000, ""max_vnd"": 700000, ""recipient_hint"": ""organization"", ""matched_text"": ""500.000\nđồng đến 700.000 đồng""}]","Phạt tiền từ 250.000 đồng đến 350.000 đồng đối với cá nhân, từ 500.000
+đồng đến 700.000 đồng đối với tô chức để vật che khuất biển báo hiệu đường bộ,
+đèn tín hiệu giao thông."
+168-2024-ND-CP_dieu-12_khoan-4,1,extracted_unverified,[],"[{""min_vnd"": 350000, ""max_vnd"": 400000, ""recipient_hint"": null, ""matched_text"": ""350.000 đồng đến 400.000 đồng""}]","Phạt tiền từ 350.000 đồng đến 400.000 đồng đối với người được chở trên
+xe ô tô không thất dây đai an toàn (tại vị trí có trang bị dây đai an toàn) khi xe
+đang chạy."
+168-2024-ND-CP_dieu-12_khoan-5,2,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người được chở trên
+xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn
+máy thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-12_khoan-6,4,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 500.000 đồng đến
+1. 000.000 đồng đối với cá nhân, từ
+1.000.000 đồng đến 2.000.000 đồng đối với tổ chức thực hiện một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-12_khoan-7,1,multiple_fines,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": ""individual"", ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}, {""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": ""organization"", ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với cá nhân, từ
+4.000.000 đồng đến 6.000.000 đồng đối với tổ chức thực hiện hành vi sử dụng
+trái phép lòng đường, vỉa hè dé: họp chợ; kinh doanh dịch vụ ăn uông; bay, bán
+
+32
+hàng hóa; sửa chữa phương tiện, máy móc, thiết bi; rửa xe; đặt, treo biên hiệu,
+biển quảng cáo."
+168-2024-ND-CP_dieu-12_khoan-8,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phat tiền từ 2. 000.000 đồng đến 4. 000.000 đồng đối với cá nhân, từ
+4.000.000 đồng đến 8.000.000 đồng đối với tổ chức cô ý thay đổi, xóa dấu vết
+hiện trường vụ tai nạn giao thông, trừ các hành vi vi phạm quy định tại điểm g
+khoản 4, khoản 8 Điều 6; điểm b khoản 5, điểm c khoản 9 Điêu 7; điểm d khoản
+5, điểm c khoản 8 Điều 8; điểm al khoản 4 Điều 9 của Nghị định này."
+168-2024-ND-CP_dieu-12_khoan-9,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 3.000.000 đồng đến 5.000. 000 đồng đối với cá nhân, từ
+6.000.000 đồng đến 10.000.000 đồng đối với tổ chức thực hiện hành vi bảy,
+bán máy móc, thiết bị, vật tư hoặc sản xuất, gia công hàng hóa trên lòng đường,
+vỉa hè."
+168-2024-ND-CP_dieu-13_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 200000, ""max_vnd"": 400000, ""recipient_hint"": null, ""matched_text"": ""200.000 đồng đến 400.000 đồng""}]","Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với hành
+vi điều khiển xe
+không có kính chăn gió hoặc có nhưng vỡ không có tác dụng (đôi với xe có thiết
+kê lắp kính chăn gió)."
+168-2024-ND-CP_dieu-13_khoan-10,2,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, người, điều khiển xe thực hiện hành vi vi phạm
+còn bị áp dụng các hình thức xử phạt bỗ sung sau đây:"
+168-2024-ND-CP_dieu-13_khoan-11,4,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi vi phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây:"
+168-2024-ND-CP_dieu-13_khoan-12,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi quy định tại điểm a khoản 6 Điều này bị thu hồi chứng nhận dang ký xe
+(hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên
+nhận của tổ chức tín dụng, chỉ nhánh ngân hàng nước ngoài trong trường hợp tổ
+chức tin dụng, chi nhánh ngân hàng nước ngoài giữ bản goc chứng nhận đăng ký
+xe) không do cơ quan có thầm quyên cấp hoặc không đúng số khung, số động cơ
+(số máy) của xe, giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi
+trường không do cơ quan có thâm quyền cấp."
+168-2024-ND-CP_dieu-13_khoan-13,3,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-13_khoan-2,3,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-13_khoan-3,4,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:
+|"
+168-2024-ND-CP_dieu-13_khoan-4,3,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:
+Ị"
+168-2024-ND-CP_dieu-13_khoan-5,3,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 4000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 4.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 4.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:
+ä) Điều khiển xe có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và
+bảo vệ môi trường nhưng đã hết hiệu lực (hạn sử dụng) đưới 01 tháng (kế cả rơ
+moóc và sơ mi rơ moóc);
+
+35"
+168-2024-ND-CP_dieu-13_khoan-6,2,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": null, ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-13_khoan-7,2,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-13_khoan-8,2,extracted_unverified,[],"[{""min_vnd"": 20000000, ""max_vnd"": 26000000, ""recipient_hint"": null, ""matched_text"": ""20.000.000 đồng đến 26.000.000 đồng""}]","Phạt tiền từ 20.000.000 đồng đến 26.000.000 đồng đối với một trong các
+hành vi vi phạm sau day:"
+168-2024-ND-CP_dieu-13_khoan-9,2,fine_not_found,[],[],"Tich thu phuong tién đối với người điều khiển xe thực hiện một trong các
+hành vi vi pham sau day:"
+168-2024-ND-CP_dieu-14_khoan-1,5,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-14_khoan-2,5,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-14_khoan-3,1,fine_not_found,[],[],"Phat tiền từ 4.000.000 đồng đến 6.000.000 dang đối với một trong các
+hành vi vi phạm sau đây:
+8) Điều khiển xe không gắn biển số (đối với loại xe có quy định phải gan
+biển số); gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số
+không do cơ quan có thẩm quyền cấp;"
+168-2024-ND-CP_dieu-14_khoan-4,1,fine_not_found,[],[],"Tịch thu phương tiện đối với hành vi điều khiển loại xe sản xuất, lắp ráp
+trái quy định tham gia giao thông."
+168-2024-ND-CP_dieu-14_khoan-5,2,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, người điều khiển xe thực hiện hành vi vi phạm
+còn bị áp dụng các hình thức xử phạt bổ sung sau đây:
+_"
+168-2024-ND-CP_dieu-14_khoan-6,2,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi vi phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây:
+_"
+168-2024-ND-CP_dieu-14_khoan-7,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi quy định tại điểm b khoản 2 Điều này bị thu hồi chứng nhận đăng ký xe
+(hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên
+nhận của tô chức tin dụng, chỉ nhánh ngân hang nước ngoài trong trường hợp tổ
+chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ky
+xe) không đúng số khung, số động cơ (số máy) của xe hoặc không do cơ quan có
+thấm quyền cấp."
+168-2024-ND-CP_dieu-14_khoan-8,2,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực biện
+hành vi vi phạm còn bị trừ điềm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-15_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 100000, ""max_vnd"": 200000, ""recipient_hint"": null, ""matched_text"": ""100.000 đồng đến 200.000 đồng""}]","Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với hành vi điều khiển xe
+không có bộ phận phát âm thanh cảnh báo (còi, chuông); không có đèn chiêu sáng
+
+40
+Ị
+hoặc tâm phản quang phía trước; không có đèn tín hiệu hoặc tắm phản quang phía
+sau xe (đôi với loại xe quy định phải có bộ phận này)."
+168-2024-ND-CP_dieu-15_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 300000, ""max_vnd"": 400000, ""recipient_hint"": null, ""matched_text"": ""300.000 đồng đến 400.000 đồng""}]","Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với hành vi điều khiển xe
+không có hệ thống (bộ phận) hãm hoặc có nhưng không có hiệu lực (đối với loại xe
+quy định phải có hệ thống (bộ phận) này)."
+168-2024-ND-CP_dieu-16_khoan-1,6,extracted_unverified,[],"[{""min_vnd"": 800000, ""max_vnd"": 1000000, ""recipient_hint"": null, ""matched_text"": ""800.000 đồng đến 1.000.000 đồng""}]","Phat tiền từ 800.000 đồng đến 1.000.000 đồng đối với một trong các hành
+vi vi phạm sau đây:
+|"
+168-2024-ND-CP_dieu-16_khoan-2,5,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phat tién tir 1.000.000 đồng đến 2.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-16_khoan-3,1,fine_not_found,[],[],"Tịch thu phương tiện đối với hành vi điều khiển xe máy chuyên dùng sản
+xuất, lắp ráp hoặc cải tạo trái quy định tham gia giao thông."
+168-2024-ND-CP_dieu-16_khoan-4,2,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, người điều khiển phương tiện thực hiện hành vi vi
+phạm còn bị áp dụng các hình thức xử phạt bd sung sau đây:
+_"
+168-2024-ND-CP_dieu-16_khoan-5,2,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương
+tiện thực hiện hành vi vi phạm còn bị áp dụng biện pháp khac phục hậu quả
+sau đây:
+.
+
+1
+42
+|"
+168-2024-ND-CP_dieu-16_khoan-6,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi quy định tại điểm đ khoản 2 Điều này bị thu hồi chứng nhận dang ky xe
+(hoặc ban sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên
+nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ
+chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký
+xe) không do cơ quan có thâm quyên cấp hoặc không đúng số khung, số động cơ
+(số máy) của xe, giầy chứng nhận, Item kiểm định an toàn kỹ thuật và bảo vệ môi
+trường không do cơ quan có thẩm quyền cấp."
+168-2024-ND-CP_dieu-17_khoan-1,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 500. 000 đồng đến 1.000.000 đồng đối với hành vi điều khiển
+xe không đáp ứng yêu cầu về vệ sinh lưu thông trong đồ thị."
+168-2024-ND-CP_dieu-17_khoan-2,2,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 4000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 4.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-17_khoan-3,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 4. 000.000 đồng đến 6.000.000 đồng đối với người điều khiển
+xe dé trái phép rác, đất, cát, đá, vật liệu, chất phế thải trong phạm vi đất dành cho
+`.
+đường bộ ở đoạn đường ngoài đô thị."
+168-2024-ND-CP_dieu-17_khoan-4,1,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 15000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 15.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với người điều
+khiến xe thực hiện hành vi dé trái phép rác, đất, cát, đá, vật liệu, chất ph thải ra
+đường phố."
+168-2024-ND-CP_dieu-17_khoan-5,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+(khi điều khiển xe ô tô) thực hiện hành vi vi phạm quy định tại khoản 3, khoản 4
+Điều này còn bị trừ điểm giấy phép lái xe 02 điểm.
+
+43
+Muc 3
+VI PHAM QUY DINH VE NGUOI DIEU KHIEN
+-
+PHƯƠNG
+TIEN THAM GIA GIAO THONG DUONG BO"
+168-2024-ND-CP_dieu-18_khoan-1,1,fine_not_found,[],[],"Phạt cảnh cáo người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô,
+xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự Xe pắn máy
+hoặc điều khiển xe ô tô, điều khiển xe chở người bốn bánh có gắn động cơ, xe chở
+hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô."
+168-2024-ND-CP_dieu-18_khoan-10,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại điểm a khoản 5, điểm b khoản 7, điểm. b
+khoản 9 Điều này còn bị áp dụng biện pháp khắc phục hậu quả buộc nộp lại giấy
+phép lái xe bị tay xóa."
+168-2024-ND-CP_dieu-18_khoan-11,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại điểm a, điểm c khoản 5; điểm b, điểm d
+khoản 7; điểm c khoản 8; điểm b khoản 9 Điều này bị thu hồi giấy phép lái xe
+không do cơ quan có thâm quyên cấp, giấy phép lái xe không hợp lệ.
+
+46"
+168-2024-ND-CP_dieu-18_khoan-12,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vị quy định tại điểm c khoản 5, điểm d khoản 7, điểm c khoản 8
+Điều này bị trừ điểm giấy phép lái 3 xe được cấp mới nhất trong hệ thống thông tin
+quản lý giấy phép lái xe 02 điểm."
+168-2024-ND-CP_dieu-18_khoan-2,4,extracted_unverified,[],"[{""min_vnd"": 200000, ""max_vnd"": 300000, ""recipient_hint"": null, ""matched_text"": ""200.000 đồng đến 300.000 đồng""}]","Phạt tiền từ 200.000 đồng đến 300.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-18_khoan-3,3,extracted_unverified,[],"[{""min_vnd"": 300000, ""max_vnd"": 400000, ""recipient_hint"": null, ""matched_text"": ""300.000 đồng đến 400.000 đồng""}]","Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-18_khoan-4,3,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-18_khoan-5,3,fine_not_found,[],[],"Phat tiền từ 2.000.000 đồng'đến 4.000.000 đồng đối với người điều khiển
+xe mô tô hai bánh có dung tích xi-lanh đến 125 cm} hoặc có công suất động cơ
+điện đến 11 kW và các loại xe tương tự xe mô tô thực hiện một trong các hành vi
+vi phạm sau đây:"
+168-2024-ND-CP_dieu-18_khoan-6,1,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": null, ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người từ đủ 16
+tuổi đến dưới 18 tuổi điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ,
+xe chở hàng bốn bánh có gắn động ‹ cơ và các loại xe tương tự xe ô tô."
+168-2024-ND-CP_dieu-18_khoan-7,4,extracted_unverified,[],"[{""min_vnd"": 6000000, ""max_vnd"": 8000000, ""recipient_hint"": null, ""matched_text"": ""6.000.000 đồng đến 8.000.000 đồng""}]","Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển
+xe mô tô hai bánh có dung tích xi-lanh trên 125 cm’ trở lên hoặc có công suất
+động cơ điện trên 11 kW, xe mô tô ba bánh thực hiện một trong các hành vi vi
+phạm sau đây:"
+168-2024-ND-CP_dieu-18_khoan-8,3,extracted_unverified,[],"[{""min_vnd"": 8000000, ""max_vnd"": 10000000, ""recipient_hint"": null, ""matched_text"": ""8.000.000 đồng đến 10.000.000 đồng""}]","Phat tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với người điều khiển
+xe ô tô và các loại xe tương tự xe 6 tô, xe chở người bon bánh có gan động cơ, xe
+chở hàng bôn bánh có gan động cơ vi phạm một trong các hành vi sau day:"
+168-2024-ND-CP_dieu-18_khoan-9,2,extracted_unverified,[],"[{""min_vnd"": 18000000, ""max_vnd"": 20000000, ""recipient_hint"": null, ""matched_text"": ""18.000.000 đồng đến 20.000.000 đồng""}]","Phat tiền từ 18.000.000 đồng đến 20.000.000 đồng đối với người điều
+khiển xe ô tô và các loại xe tương tự xe ô tô, xe chở người bốn bánh có gan động
+cơ, xe chở hàng bến bánh có gắn động cơ vi phạm một trong các hành vi sau đây:"
+168-2024-ND-CP_dieu-19_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe
+máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự
+theo quy định của pháp luật.
+|"
+168-2024-ND-CP_dieu-19_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": null, ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phat tién tir 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển
+xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển xe máy chuyên
+dùng, không có giây phép lái xe (hoặc sử dụng giầy phép | lái xe đã bị trừ hết điểm,
+giầy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tây xóa,
+giây phép lái xe không còn hiệu lực) hoặc không có chứng chỉ bồi dưỡng kiến
+thức pháp luật về giao thông đường bộ.
+Mục 4
+VI PHAM QUY ĐỊNH VE BẢO DAM TRẬT TỰ, AN TOAN.
+GIAO THÔNG ĐƯỜNG BỘ ĐÓI VỚI XE Ô TÔ VẬN CHUYEN HANH
+KHACH, HANG HOA, HANG SIEU TRUONG, SIEU TRONG, HANG
+HOA NGUY HIEM, CHO TRE EM MAM NON, HOC SINH; XE CHO
+NGUOI BON BANH CO GAN DONG CO, XE CHO HANG BON BANH
+CÓ GAN ĐỘNG CƠ; XE CUU HO GIAO THONG ĐƯỜNG BỘ; XE VAN
+CHUYEN ĐỘNG VAT SÓNG, THỰC PHAM TƯƠI SÓNG;
+XE CỨU THƯƠNG"
+168-2024-ND-CP_dieu-1_khoan-1,2,fine_not_found,[],[],Nghị định này quy định về:
+168-2024-ND-CP_dieu-1_khoan-2,1,fine_not_found,[],[],"Các hành vi vi phạm hành chính trong lĩnh vực quản lý nhà nước khác liên
+quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ mà không
+quy định tại Nghị định này thì áp dụng quy định tại các Nghị định quy định về xử
+phạt vi phạm hành chính trong các lĩnh vực đó dé xử phat."
+168-2024-ND-CP_dieu-20_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 100000, ""max_vnd"": 200000, ""recipient_hint"": null, ""matched_text"": ""100.000 đồng đến 200.000 đồng""}]","Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với hành vi vi phạm:
+không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trong xe."
+168-2024-ND-CP_dieu-20_khoan-10,4,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-20_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng trên mỗi .""gười vượt quá quy
+định được phép chở của | phương tiện nhưng tông mức phạt tiền tối đa không vượt
+quá 75.000.000 đồng đối với người điều khiển xe ô tô chở hành khách, ô tô chở
+người (trừ xe buýt) thực hiện hành vi vi phạm chở quá số người quy định được
+phép chở của phương tiện, trừ các hành vi vi phạm quy định tại khoản 4 Điều này."
+168-2024-ND-CP_dieu-20_khoan-3,10,extracted_unverified,[],"[{""min_vnd"": 600000, ""max_vnd"": 800000, ""recipient_hint"": null, ""matched_text"": ""600.000 đồng đến 800.000 đồng""}]","Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-20_khoan-4,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 1.000.000 đồng đến 2.000. 000 đồng trên mỗi người vượt quá
+quy định được phép chở của : phương tiện những tong mức phạt tiền tối da không
+vượt quá 75.000.000 đồng đối với người điều khiển xe ô tô chở hành khách (kinh
+doanh vận tai hành khách theo tuyến cé định, hợp đồng) chạy tuyến có cự ly lớn
+hơn 300 km thực hiện hành vi vi phạm chở quá số người quy định được phép chở
+của phương tiện."
+168-2024-ND-CP_dieu-20_khoan-5,12,fine_not_found,[],[],"Phạt tiền từ 1.000.000 đồng
+‹ đến 2.000.000 đồng đổi với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-20_khoan-6,6,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-20_khoan-7,1,extracted_unverified,[],"[{""min_vnd"": 5000000, ""max_vnd"": 7000000, ""recipient_hint"": null, ""matched_text"": ""5.000.000 đồng đến 7.000.000 đồng""}]","Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng đối với hành vi vi phạm
+điều khiển xe chở hành khách không có hoặc không gắn phù hiệu theo quy định
+hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có
+thâm quyền cấp."
+168-2024-ND-CP_dieu-20_khoan-8,1,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}]","Phat tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với người điều
+khiên xe thực hiện hành vi đón, trả hành khách trên đường cao tốc."
+168-2024-ND-CP_dieu-20_khoan-9,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại khoản 7 Điều này bị thu hồi phù hiệu
+đã hết giá trị sử dụng hoặc phủ hiệu không do cơ quan có thâm quyền cấp."
+168-2024-ND-CP_dieu-21_khoan-1,2,fine_not_found,[],[],"Phạt tiền từ 600.000 đồng ( đến 800.000 đồng đối với một trong các hành
+vị vi phạm sau đây:"
+168-2024-ND-CP_dieu-21_khoan-10,2,extracted_unverified,[],"[{""min_vnd"": 18000000, ""max_vnd"": 22000000, ""recipient_hint"": null, ""matched_text"": ""18.000.000 đồng đến 22.000.000 đồng""}]","Phạt tiền từ 18.000.000 đồng đến 22.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-21_khoan-11,1,extracted_unverified,[],"[{""min_vnd"": 30000000, ""max_vnd"": 35000000, ""recipient_hint"": null, ""matched_text"": ""30.000.000 đồng đến 35.000.000 đồng""}]","Phat tiền từ 30.000.000 đồng đến 35.000.000 đồng đối với hành vi vi
+phạm quy định tại khoản 1, điểm đ khoản 8, khoản 10 Điều này mà gây tai nạn
+giao thông."
+168-2024-ND-CP_dieu-21_khoan-12,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại điểm c khoản 6 Điều nay bị thu hồi phù hiệu
+đã hết giá trị sử dụng hoặc phù hiệu không do cơ quan có thâm quyền cấp."
+168-2024-ND-CP_dieu-21_khoan-13,5,non_monetary_penalty,[],[],",Ngoai việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm còn bị trừ diém giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-21_khoan-2,4,extracted_unverified,[],"[{""min_vnd"": 800000, ""max_vnd"": 1000000, ""recipient_hint"": null, ""matched_text"": ""800.000 đồng đến 1.000.000 đồng""}]","Phat tiền từ 800.000 đồng đến 1.000.000 đồng đối với một trong các hành
+vi vi phạm sau đây:
+-
+|
+L"
+168-2024-ND-CP_dieu-21_khoan-3,2,fine_not_found,[],[],"Phat tiền từ 1.000.000 đồng đến 2.000.000 đẳng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-21_khoan-4,1,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiển
+xe thực hiện hành vi chở hàng vượt quá chiêu cao xếp hàng cho phép đôi với xe
+ô tô tải (kê cả ro moóc và sơ mi ro moóc)."
+168-2024-ND-CP_dieu-21_khoan-5,4,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-21_khoan-6,5,extracted_unverified,[],"[{""min_vnd"": 5000000, ""max_vnd"": 7000000, ""recipient_hint"": null, ""matched_text"": ""5.000.000 đồng đến 7.000.000 đồng""}]","Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-21_khoan-7,2,extracted_unverified,[],"[{""min_vnd"": 7000000, ""max_vnd"": 8000000, ""recipient_hint"": null, ""matched_text"": ""7.000.000 đồng đến 8.000.000 đồng""}]","Phạt tiền từ 7.000.000 đồng đến 8.000.000 đồng đối với một trong các
+hành + vi sau đây:"
+168-2024-ND-CP_dieu-21_khoan-8,5,extracted_unverified,[],"[{""min_vnd"": 8000000, ""max_vnd"": 12000000, ""recipient_hint"": null, ""matched_text"": ""8.000.000 đồng đến 12.000.000 đồng""}]","Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với một trong các
+hành .vi
+sau đây:"
+168-2024-ND-CP_dieu-21_khoan-9,1,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}]","Phat tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với người điều
+khiển xe thực hiện hành vi nhận, trả hàng trên đường cao tốc."
+168-2024-ND-CP_dieu-22_khoan-1,2,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-22_khoan-2,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phat tién tir 8.000. 000 đồng
+¢ đến 10.000.000 đồng đối với hành vi chở hàng
+siêu trường, siêu trọng có giấy phép, ‘wu hành còn giá trị sử dụng nhưng kích thước
+bao ngoài của xe (sau khi đã xếp hàng lên xe) vượt quá quy định trong giấy phép
+lưu hành.
+|"
+168-2024-ND-CP_dieu-22_khoan-3,4,extracted_unverified,[],"[{""min_vnd"": 13000000, ""max_vnd"": 15000000, ""recipient_hint"": null, ""matched_text"": ""13.000.000 đồng đến 15.000.000 đồng""}]","Phạt tiền từ 13.000.000 đồng đến 15.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:
+ị"
+168-2024-ND-CP_dieu-22_khoan-4,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người thực hiện hành vi vi phạm
+quy định tại khoản 1, khoản 2, khoản 3 Điều này nếu gây hư hại cầu, đường còn
+bị áp dụng biện pháp khắc phục hậu quả buộc khôi phục lại tình trạng ban đầu đã
+bị thay déi do hành vi vi phạm hành chính gây ra."
+168-2024-ND-CP_dieu-22_khoan-5,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người thực hiện hành vi vi phạm
+quy định tại điểm a khoản 3 Điều này bị thu hồi giấy phép lưu hành hết giá trị sử
+dụng hoặc giấy phép lưu hành không do cơ quan có thầm quyền cấp."
+168-2024-ND-CP_dieu-22_khoan-6,2,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-23_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền
+từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi vận chuyển
+hàng hoá nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy
+hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó.
+
+55"
+168-2024-ND-CP_dieu-23_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phat tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với hành vi vận
+chuyên hàng hoá nguy hiểm mà không mang theo hồ sơ vận chuyển hàng hóa
+nguy hiểm do người thuê vận tải cung cấp theo quy định, giấy chứng nhận hoàn
+thành chương trình tập huấn an toàn hàng hóa nguy hiểm phù hợp với loại, nhóm
+hàng hóa nguy hiểm dang vận chuyển (nếu có)."
+168-2024-ND-CP_dieu-23_khoan-3,1,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": null, ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với hành vi vận
+chuyên hàng nguy hiém mà xe 6 tô không dán nhãn, biêu trưng nhận diện hàng
+hóa nguy hiểm; xe ô tô không lắp đèn hoặc tín hiệu cảnh báo theo quy định."
+168-2024-ND-CP_dieu-23_khoan-4,1,extracted_unverified,[],"[{""min_vnd"": 6000000, ""max_vnd"": 8000000, ""recipient_hint"": null, ""matched_text"": ""6.000.000 đồng đến 8.000.000 đồng""}]","Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với hành vi van
+chuyên hàng hoá nguy hiểm là thuốc nổ, khi đốt, xăng, dầu và các chất dễ
+cháy, nổ, chất rắn khử nhạy khác đi qua các công trình hầm có chiều dai từ
+100 mét trở lên."
+168-2024-ND-CP_dieu-23_khoan-5,1,extracted_unverified,[],"[{""min_vnd"": 12000000, ""max_vnd"": 14000000, ""recipient_hint"": null, ""matched_text"": ""12.000.000 đồng đến 14.000.000 đồng""}]","Phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng đối với hành vi vận
+chuyển hàng hoá nguy hiểm kbông có giấy phép vận chuyên hàng hóa nguy hiểm
+hoặc có nhưng hết hiệu lực hoặc không thực hiện đúng quy định trong giây phép
+vận chuyển hàng hóa nguy hiểm, trừ các hành vi vi phạm quy định tại điểm a khoản
+6 Điều 20 của Nghị định này."
+168-2024-ND-CP_dieu-23_khoan-6,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người thực hiện hành vi vi phạm
+quy định tại khoản 4, khoản 5 Điều này nếu gây ô nhiễm môi trường: còn bị áp
+dụng các biện pháp khắc phục hậu quả buộc thực hiện các biện pháp
+k khắc phực
+tình trạng ô nhiễm môi trường do vi phạm hành chính gây ra."
+168-2024-ND-CP_dieu-23_khoan-7,2,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm còn bi trừ điềm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-24_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi vi phạm vận
+chuyên động vật sống, thực phẩm tươi sống không mang đủ giấy tờ theo quy
+định (đối với loại động vật sống, thực phẩm tươi sống khi vận chuyển phải có
+giấy tờ)."
+168-2024-ND-CP_dieu-24_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi vi
+phạm vận chuyên thực phâm tươi sông không châp hành quy định về an toàn
+thực phâm, vệ sinh dịch tê, phòng dịch và bảo đảm vệ sinh môi trường theo
+quy định.
+
+56"
+168-2024-ND-CP_dieu-24_khoan-3,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại khoản 2 Điều này còn bị trừ điểm giấy
+phép lái xe 02 điểm."
+168-2024-ND-CP_dieu-25_khoan-1,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 2. 000.000 đồng đến 3.000.000 đồng đối với hành vi điều khiển
+xe không chạy đúng tuyến, phạm vi, thời gian quy định."
+168-2024-ND-CP_dieu-25_khoan-2,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại khoản
+1 Điều này còn bị trừ điểm giấy
+phép lái xe 02 điểm."
+168-2024-ND-CP_dieu-26_khoan-1,2,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 500.000 đồng đến
+1. 000.000 đồng đối với cá nhân, từ
+1.000.000 đồng đến 2.000.000 đồng đối với tổ chức thực hiện một trong các hành
+vị vi phạm sau đây:"
+168-2024-ND-CP_dieu-26_khoan-10,2,extracted_unverified,[],"[{""min_vnd"": 40000000, ""max_vnd"": 60000000, ""recipient_hint"": null, ""matched_text"": ""40.000.000 đồng đến 60.000.000 đồng""}]","Phat tiền từ 40.000.000 đồng đến 60.000.000 đồng đối với đơn vị sản
+xuất, lắp ráp, nhập khẩu thiết bị ghi nhận hình ảnh người lái xe lắp trên xe 6
+tô,
+đơn vị cung cấp dịch vụ liên quan đến giám sát hành trình, ghi nhận hình ảnh người
+lái xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-26_khoan-11,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 40.000.000 đồng đến 50. 000.000 đồng đối với cá nhân, từ
+80.000.000 đồng đến 100.000.000 đồng đối với té chức kinh doanh vận tải, dịch
+vụ hỗ trợ vận tải tái phạm hành vi quy định tại điểm 8, điểm h khoản 7 Điều này."
+168-2024-ND-CP_dieu-26_khoan-12,1,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, cá nhân, tô chức thực hiện hành vi vi phạm quy
+định tại điểm c khoản 2; điểm a, điểm b, điểm đ, điểm g khoản 4; điểm b, điểm c,
+điểm d, điểm đ, điểm e, điểm g khoản 7; điểm c khoản 8 Điều này còn bị áp dụng
+các hình thức xử phạt bổ sung tước quyền sử dụng phù hiệu từ 01 tháng đến 03
+tháng (nếu có hoặc đã được cấp) đối với xe vi phạm."
+168-2024-ND-CP_dieu-26_khoan-13,5,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành
+vi vi phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây:"
+168-2024-ND-CP_dieu-26_khoan-14,2,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-26_khoan-2,6,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 1.000.000 đồng đến 2. 000.000 đồng đối với cá nhân, từ
+2.000.000 đồng đến 4.000.000 đồng đối với tổ chức kinh doanh vận tải, dich vụ
+hỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-26_khoan-3,1,multiple_fines,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": ""individual"", ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}, {""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": ""organization"", ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với cá nhân, từ
+4.000.000 đồng đến 6.000.000 đồng đối với tổ chức thực hiện hành vi vi phạm
+xếp hàng hóa lên mỗi xe 6 tô (kế cả ro moóc và sơ mi ro moóc) vượt quá trọng
+tai (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong
+giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên
+50% đến 100%."
+168-2024-ND-CP_dieu-26_khoan-4,7,multiple_fines,[],"[{""min_vnd"": 3000000, ""max_vnd"": 4000000, ""recipient_hint"": ""individual"", ""matched_text"": ""3.000.000 đồng đến 4.000.000 đồng""}, {""min_vnd"": 6000000, ""max_vnd"": 8000000, ""recipient_hint"": ""organization"", ""matched_text"": ""6.000.000 đông đên 8.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 4.000.000 đồng đối với cá nhân, từ
+6.000.000 đông đên 8.000.000 đồng đối với tô chức kinh doanh vận tải, dich vụ
+hỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-26_khoan-5,1,multiple_fines,[],"[{""min_vnd"": 4000000, ""max_vnd"": 5000000, ""recipient_hint"": ""individual"", ""matched_text"": ""4.000.000 đồng đến 5.000.000 đồng""}, {""min_vnd"": 8000000, ""max_vnd"": 10000000, ""recipient_hint"": ""organization"", ""matched_text"": ""8.000.000 đồng đến 10.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 5.000.000 đồng đối với cá nhân, từ
+8.000.000 đồng đến 10.000.000 đồng đối với tổ chức xếp hàng hóa lên mỗi xe 6
+
+58
+tô (kế cả ro moóc và sơ mi ro moó©) vượt quá trọng tải (khối lượng hàng chuyên
+chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an
+toàn kỹ thuật và bảo vệ môi trường của xe trên 100%."
+168-2024-ND-CP_dieu-26_khoan-6,4,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 4.000.000 đồng đến 6. 000.000 đồng đối với cá nhân, từ
+8.000.000 đồng đến 12.000.000 đồng đối với tổ chức kinh doanh vận tải thực hiện
+một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-26_khoan-7,9,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": ""organization"", ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}]","Phạt tiền từ 5.000.000 đồng đến 6.000. .000 đồng đối với cá nhân, từ
+10.000.000 đồng đến 12.000.000 đồng đối với tổ chức kinh doanh vận tải, dịch
+vụ hỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-26_khoan-8,3,multiple_fines,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": ""individual"", ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}, {""min_vnd"": 20000000, ""max_vnd"": 24000000, ""recipient_hint"": ""organization"", ""matched_text"": ""20.000.000 đồng đến 24.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ
+20.000.000 đồng đến 24.000.000 đồng đối với tổ chức kinh đoanh vận tải, dịch
+vụ hỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây:
+.a) Không tổ chức khám sức khỏe định kỳ cho lái xe theo quy định hoặc có
+tô chức khám nhưng không đây đủ các nội dung theo quy định;
+:b) Vi phạm quy định về kinh doanh, điều kiện kinh doanh vận tải bằng xe ô
+tô dé xảy ra tai nan giao thông gây hậu qua từ mức nghiêm trọng trở lên;"
+168-2024-ND-CP_dieu-26_khoan-9,2,extracted_unverified,[],"[{""min_vnd"": 20000000, ""max_vnd"": 40000000, ""recipient_hint"": null, ""matched_text"": ""20.000.000 đồng đến 40.000.000 đồng""}]","Phat tiền
+từ 20.000.000 đồng đến 40.000.000 đồng đối với đơn vị sản xuất,
+lặp ráp, nhập khâu thiết bị giám sát hành trình của xe ô tô, đơn vị cung cap dich vụ
+liên quan dén giám sát hành trình, ghi nhận hình ảnh người lái xe thực hiện một trong
+các hành vi sau:"
+168-2024-ND-CP_dieu-27_khoan-1,3,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển
+xe ô tô kinh doanh vận tải chở trẻ em mam non, học sinh, xe 6 tô kinh doanh vận
+tai kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh thực hiện một trong
+các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-27_khoan-2,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 2.000.000 đồng đến 3. 000.000 đồng đối với hành vi điều khiến
+xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học, xe ô tô kinh.
+` doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh tiểu học
+“khong có hoặc không đủ người quan lý trên mỗi xe ô tô theo quy định. ‘tai khoan
+“3 Điều 46 của Luật Trật tự, an toàn giao thông đường bộ."
+168-2024-ND-CP_dieu-27_khoan-3,4,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với người điều khiển
+xe ô tô kinh doanh vận tải chở trẻ em mam non, học sinh, xe 6 tô kinh doanh vận
+tải kết hợp với hoạt động đưa đón trẻ em mam non, học sinh thực hiện một trong
+các hành vi vì phạm sau đây:"
+168-2024-ND-CP_dieu-27_khoan-4,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi quy định tại khoản 2, khoản 3 Điều này bị trừ điểm giấy phép
+lái xe 02 điểm."
+168-2024-ND-CP_dieu-28_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi chở quá
+số người quy định được phép chở của phương tiện."
+168-2024-ND-CP_dieu-28_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phat tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với hành vi điều khiển
+xe chở người bốn bánh có gắn động cơ kinh doanh vận tải, xe chở hang bốn bánh
+có gắn động cơ kinh doanh vận tải không có hoặc không gắn phù hiệu theo quy
+- định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ
+quan có thâm quyền cấp."
+168-2024-ND-CP_dieu-28_khoan-3,2,extracted_unverified,[],"[{""min_vnd"": 8000000, ""max_vnd"": 12000000, ""recipient_hint"": null, ""matched_text"": ""8.000.000 đồng đến 12.000.000 đồng""}]","Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với hành vi điều
+khiển xe hoạt động không đúng tuyên đường, lịch trình, thời gian được phép hoạt
+động hoặc phạm vi hoạt động theo quy định, trừ hành vi vi phạm quy định tại điểm
+b khoản 7 Điều 6 của Nghị định này.
+‘4, Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-29_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phat tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi vi phạm
+điều khiển xe ô tô cứu hộ giao thông đường bộ không lắp thiết bị ghi nhận hình
+ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không
+có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai
+lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô."
+168-2024-ND-CP_dieu-29_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với hành vi vi phạm
+điều khiển xe ô tô cứu hộ giao thông đường bộ không có dụng cụ, thiết bị chuyên
+dùng dé cứu hộ, hỗ trợ cứu hộ theo quy định."
+168-2024-ND-CP_dieu-29_khoan-3,1,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng
+| đối với hành vi vi phạm
+điều khiển xe ô tô cứu hộ giao thông đường bộ không lắp thiết bị giám sát hành
+trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá
+trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị
+giám sát hành trình lắp trên xe ô tô."
+168-2024-ND-CP_dieu-29_khoan-4,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực
+hiện hành vi quy định tại khoản 3 Điều này bị trừ điểm giấy phép lái xe 02 điểm.
+
+63"
+168-2024-ND-CP_dieu-2_khoan-1,1,fine_not_found,[],[],"Cá nhân, tổ chức Việt Nam; cá nhân, tổ chức nước ngoài có hành vi vi
+phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường
+bộ trên lãnh thô nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+168-2024-ND-CP_dieu-2_khoan-2,8,fine_not_found,[],[],Tổ chức quy định tại khoản 1 Điều này bao gồm:
+168-2024-ND-CP_dieu-2_khoan-3,1,fine_not_found,[],[],"Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm hành chính quy
+định tại Nghị định này bị xử phạt như đối với cá nhân vi phạm."
+168-2024-ND-CP_dieu-2_khoan-4,1,fine_not_found,[],[],"Người có thâm quyển lập biên bản vi phạm hành chính, thấm quyền xử
+phat vi phạm hành chính và tô chức, cá nhân có liên quan đến việc xử phạt vì
+-
+phạm hành chính theo quy định tại Nghị định này."
+168-2024-ND-CP_dieu-2_khoan-5,1,fine_not_found,[],[],"Người có thâm quyền trừ điểm, phục. hồi điểm giấy phép lái xe."
+168-2024-ND-CP_dieu-30_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi vi phạm
+điều khiển xe ô tô cứu thương không lắp thiết bị ghi nhận hình ảnh người lái xe
+hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong
+quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết
+bị ghi nhận hình ảnh người lái xe lắp trên xe 6 tô."
+168-2024-ND-CP_dieu-30_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi vi phạm
+điều khiển xe ô tô cứu thương không lắp thiết bị giám sát hành trình hoặc có lắp
+thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia
+giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình
+lắp trên xe ô tô."
+168-2024-ND-CP_dieu-30_khoan-3,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xứ phạt, người điều khiển phương tiện
+thực hiện hành vi quy định tại khoản 2 Điều này bị trừ điểm giấy phép lái xe
+02 điểm.
+Mục 5
+CÁC VI PHAM KHAC LIEN QUAN DEN TRAT TỰ, AN TOAN
+GIAO THONG TRONG LINH VUC GIAO T HONG DUONG BO"
+168-2024-ND-CP_dieu-31_khoan-1,1,multiple_fines,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": ""individual"", ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}, {""min_vnd"": 20000000, ""max_vnd"": 24000000, ""recipient_hint"": ""organization"", ""matched_text"": ""20.000.000 đồng đến 24.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ
+20.000.000 đồng đến 24.000.000 đồng đối với tổ chức thực hiện hành vi mua, bán
+biển số xe không phải là biển số do cơ quan nhà nước có thấm quyền sản xuất
+hoặc không được cơ quan nhà nước có thấm quyền cho phép."
+168-2024-ND-CP_dieu-31_khoan-2,1,multiple_fines,[],"[{""min_vnd"": 40000000, ""max_vnd"": 50000000, ""recipient_hint"": ""individual"", ""matched_text"": ""40.000.000 đồng đến 50.000.000 đồng""}, {""min_vnd"": 80000000, ""max_vnd"": 100000000, ""recipient_hint"": ""organization"", ""matched_text"": ""80.000.000 đồng đến 100.000.000 đồng""}]","Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với cá nhân, từ
+80.000.000 đồng đến 100.000.000 đồng đối với tổ chức thực hiện hành vi sản xuất
+biển số trái phép hoặc sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới
+đường bộ."
+168-2024-ND-CP_dieu-31_khoan-3,1,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm quy
+định tại khoản 1, khoản 2 Điêu này còn bị áp dụng hình thức xử phạt bỗ sung tịch
+thu biên sô, phương tiện sản xuất, lắp ráp trái phép."
+168-2024-ND-CP_dieu-31_khoan-4,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tô chức thực hiện
+hành vì quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng biện pháp khắc
+phục hậu quả buộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm
+hành chính.
+
+64"
+168-2024-ND-CP_dieu-32_khoan-1,1,multiple_fines,[],"[{""min_vnd"": 200000, ""max_vnd"": 300000, ""recipient_hint"": ""individual"", ""matched_text"": ""200.000 đồng đến 300.000 đồng""}, {""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": ""organization"", ""matched_text"": ""400.000\nđồng đến 600.000 đồng""}]","Phạt tiền từ 200.000 đồng đến 300.000 đồng đối với cá nhân, từ 400.000
+đồng đến 600.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy và các loại
+xe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-10,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 8.000.000 đồng đến 10. 000.000 đồng đối với cá nhân, từ
+16.000.000 đồng đến 20.000.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn
+máy và các loại xe tương tự xe mô tô, các loại xe tương | tự xe gắn máy thực hiện
+hành vi vi phạm giao xe hoặc để cho người không đủ điều kiện theo quy định tại
+khoản
+1 Điều 56 của Luật Trật ty,’ 'an toàn giao thông đường bộ điều khiến xe
+tham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có
+giấy phép lái xe nhưng đang trong thời gian bị tước quyền sử dụng)."
+168-2024-ND-CP_dieu-32_khoan-11,5,multiple_fines,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": ""individual"", ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}, {""min_vnd"": 20000000, ""max_vnd"": 24000000, ""recipient_hint"": ""organization"", ""matched_text"": ""20.000.000 đồng đến 24.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ
+20.000.000 đồng đến 24.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở
+người bến bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy
+chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi
+phạm sau đây:
+_a) Đưa xe cơ giới, xe máy chuyên dùng không
+| có giấy chứng nhận hoặc tem
+kiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải
+kiểm định) hoặc có nhưng đã hết hiệu lực (hạn sử dụng) từ 01 tháng trở lên (kể cả
+ro moóc va sơ mi ro moóc) tham gia giao thông:"
+168-2024-ND-CP_dieu-32_khoan-12,4,multiple_fines,[],"[{""min_vnd"": 16000000, ""max_vnd"": 18000000, ""recipient_hint"": ""individual"", ""matched_text"": ""16.000.000 đồng đến 18.000.000 đồng""}, {""min_vnd"": 32000000, ""max_vnd"": 36000000, ""recipient_hint"": ""organization"", ""matched_text"": ""32.000.000 đồng đến 36.000.000 đồng""}]","Phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng đối với cá nhân, từ
+32.000.000 đồng đến 36.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở người
+bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên
+dùng và các loại xe tương tự xe ô tô, phương tiện giao thông thông minh thực hiện
+một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-13,5,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 20.000.000 đồng đến 26. 000.000 đồng đổi với cá nhân, từ
+40.000.000 đồng đến 52.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy
+chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi
+phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-14,9,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 28.000.000 đồng đến 30. 000.000 đồng đối với cá nhân, từ
+56.000.000 đồng đến 60.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở
+người bốn bánh có gắn động cơ, xe chớ hàng bốn bánh có gắn động cơ, xe máy
+chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi
+phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-15,1,multiple_fines,[],"[{""min_vnd"": 30000000, ""max_vnd"": 40000000, ""recipient_hint"": ""individual"", ""matched_text"": ""30.000.000 đồng đến 40.000.000 đồng""}, {""min_vnd"": 60000000, ""max_vnd"": 80000000, ""recipient_hint"": ""organization"", ""matched_text"": ""60.000.000 đồng đến 80.000.000 đồng""}]","Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng đối với cá nhân, từ
+60.000.000 đồng đến 80.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy
+chuyên dùng và các loại xe tương tự xe ô tô khi giao phương tiện hoặc để cho
+người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm
+quy định tại khoản 7 Điều 21 của Nghị định này hoặc trực tiếp điều khiển
+phương tiện thực hiện hành vỉ vi phạm quy định tại khoản 7 Điều 21 của Nghị
+định này."
+168-2024-ND-CP_dieu-32_khoan-16,3,multiple_fines,[],"[{""min_vnd"": 65000000, ""max_vnd"": 75000000, ""recipient_hint"": ""individual"", ""matched_text"": ""65.000.000 đồng đến 75.000.000 đồng""}, {""min_vnd"": 130000000, ""max_vnd"": 150000000, ""recipient_hint"": ""organization"", ""matched_text"": ""130.000.000 đồng đến 150.000.000 đồng""}]","Phạt tiền từ 65.000.000 đồng đến 75.000.000 đồng đối với cá nhân, từ
+130.000.000 đồng đến 150.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy
+chuyên dùng và các loại xe tương tự xe ô tô khi thực hiện một trong các hành vi
+vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-17,7,fine_not_found,[],[],"Tịch thu phương tiện đối với chủ xe ô tô, xe chở người bốn bánh có gắn
+động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô,
+xe gan máy và các loại xe tương tự xe 6 tô, xe mô tô, xe gan máy thực hiện mét
+|
+trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-18,5,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm còn
+bị áp dụng các hình thức xử phạt b6 sung như sau:"
+168-2024-ND-CP_dieu-32_khoan-19,10,non_monetary_penalty,[],[],"Ngoài việc bi áp dụng hình thức xử phạt, cá nhân, tô chức thực hiện hành
+vi vị phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây:"
+168-2024-ND-CP_dieu-32_khoan-2,2,multiple_fines,[],"[{""min_vnd"": 300000, ""max_vnd"": 400000, ""recipient_hint"": ""individual"", ""matched_text"": ""300.000 đồng đến 400.000 đồng""}, {""min_vnd"": 600000, ""max_vnd"": 800000, ""recipient_hint"": ""organization"", ""matched_text"": ""600.000\nđồng đến 800.000 đồng""}]","Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với cá nhân, từ 600.000
+đồng đến 800.000 đồng đối với tổ chức là chủ xe ô tô, xe chở người bốn bánh có
+gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các
+loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-20,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành
+vi vi phạm quy định tại điểm a, điểm d khoản 7; điểm a, điểm e khoản 8; điểm đ
+khoản 9 Điều này bị thu hồi hồ SƠ đăng ký xe bị tây xóa, sửa chữa hoặc giả mạo;
+giấy tờ, tài liệu giả để được cấp lại biển số xe, chứng nhận đăng kỹ xe, giây chứng
+nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường; chứng nhận đăng ký xe
+
+75
+(hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên
+nhận của tô chức tín dụng, chỉ nhánh ngân hàng nước ngoài trong trường hợp t6
+chirc tin dung, chi nhanh ngan hàng nước ngoài giữ ban gốc chứng nhận đăng ký
+xe) không do cơ quan có thâm quyên cấp hoặc không đúng với sô khung, sô động
+cơ (số may); giây chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi
+trường của xe không do co quan có thâm quyền cấp."
+168-2024-ND-CP_dieu-32_khoan-21,8,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành
+vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-32_khoan-3,3,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 800.000 đồng đến
+1. 000.000 đồng đối với
+cá nhân, từ
+1.600.000 đồng đến 2.000.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy
+và các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy thực hiện một
+trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-4,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 800.000 đồng đến
+1. 000.000 đồng đối với cá nhân, tử
+1.600.000 đồng đến 2.000.000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy
+và các loại xe tương tự xe mô tô, các loại xe tương tự xe gan may khéng thuc hién
+đúng quy định về biển số, trừ các hành vi vi phạm quy định tại điểm g, điểm h khoản
+8 Điều này."
+168-2024-ND-CP_dieu-32_khoan-5,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 800.000 đồng đến 1.200.000 đồng trên mỗi người vượt quá
+quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không
+vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 1.600.000 đồng
+
+65
+đến 2.400. 000 đồng trên mỗi người vượt quá quy định được phép chở của phương
+tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với
+chủ phương tiện là tổ chức giao phương tiện hoặc dé cho người làm công, người
+đại điện điều khiến phương tiện thực hiện hành vi vi phạm quy định tại khoản 2
+Điều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành
+vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này."
+168-2024-ND-CP_dieu-32_khoan-6,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 2.000.000 đồng đến 4.000. 000 đồng trên mỗi người vượt quá
+quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không
+vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 4.000.000 đồng
+đến 8.000. 000 đồng trên mỗi người vượt quá quy định được phép chở của phương
+tiện nhưng tông mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với
+chủ phương tiện là tô chức giao phương tiện hoặc để cho người làm công, người
+đại điện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 4
+Điều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hanh
+vi vi phạm quy định tại khoản 4 Điều 20 của Nghị định này."
+168-2024-ND-CP_dieu-32_khoan-7,14,multiple_fines,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": ""individual"", ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}, {""min_vnd"": 8000000, ""max_vnd"": 12000000, ""recipient_hint"": ""organization"", ""matched_text"": ""8.000.000\nđồng đến 12.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000
+đồng đến 12.000.000 đồng đối với tổ chức là chủ xe ô tô (kế cả rơ moóc và SƠ mi ro
+moóc), xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động
+CƠ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-8,8,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": ""organization"", ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với: cá nhân, từ
+8.000.000 đến 12.000.000 đồng đội với tổ chức là chủ xe mô tô, xe gắn máy và
+các loại xe tương tự xe mô tô, các toai xe tuong tu xe gan máy thực hiện một trong,
+các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-32_khoan-9,6,multiple_fines,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": ""individual"", ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}, {""min_vnd"": 8000000, ""max_vnd"": 12000000, ""recipient_hint"": ""organization"", ""matched_text"": ""8.000.000\nđồng đến 12.000.000 đồng""}]","Phat tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000
+đồng đến 12.000.000 đồng đối với tổ chức là chủ xe 6 tô, xe chở người bốn bánh có
+gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại
+xe tương tự xe 6 tô thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-33_khoan-1,2,fine_not_found,[],[],"Phạt tiền từ 100.000 đồng đến. 200.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-33_khoan-2,2,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-33_khoan-3,1,fine_not_found,[],[],"Phạt tiền từ 2.000.000 đồng! đến 3.000.000 đồng đối với hành vi đe dọa,
+xâm phạm sức khỏe của người khác đi trên xe, lái xe, nhân viên phục vụ trên xe."
+168-2024-ND-CP_dieu-33_khoan-4,1,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, người thực hiện hành vi vi | pham quy định tại điểm
+a khoản 2 Điều này còn bị áp dụng! hình thức xử phat bổ sung tịch thu hóa chất
+độc hại, chất dễ cháy; nỗ, hàng nguy hiểm, hàng câm lưu thông mang theo trên xe
+chở khách."
+168-2024-ND-CP_dieu-34_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi không
+thực hiện đúng quy định trong giây|phép lưu hành, trừ các hành vi vi phạm quy
+định tại điểm a, điểm b khoản 3; điểm b, điểm c khoản 4 Điều này."
+168-2024-ND-CP_dieu-34_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": null, ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với hành vi điều khiển
+xe mà tổng trọng lượng (khối lượng toàn bộ) của xe vượt quá tải trọng cho phép
+của đường bộ trên 10% đến 20%, trừ trường hợp có giấy phép lưu hành còn giá
+trị sử dụng."
+168-2024-ND-CP_dieu-34_khoan-3,4,fine_not_found,[],[],"Phạt tiền từ 8.000.000 đồng đến 10.000:000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-34_khoan-4,3,extracted_unverified,[],"[{""min_vnd"": 13000000, ""max_vnd"": 15000000, ""recipient_hint"": null, ""matched_text"": ""13.000.000 đồng đến 15.000.000 đồng""}]","Phạt tiền từ 13.000.000 đồng đến 15.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-34_khoan-5,2,extracted_unverified,[],"[{""min_vnd"": 40000000, ""max_vnd"": 50000000, ""recipient_hint"": null, ""matched_text"": ""40.000.000 đồng đến 50.000.000 đồng""}]","Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-34_khoan-6,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực biện hành vi vi phạm quy định tại khoản
+1, khoản 2, khoản 3, khoản 4,
+khoản 5 Điều này nếu gây hư hại cầu, đường còn bid ap dung bién phap khắc phục
+hậu quả buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành
+chính gây ra.
+
+|
+78"
+168-2024-ND-CP_dieu-34_khoan-7,4,non_monetary_penalty,[],[],"Ngoài việc bi áp dụng hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vị ví phạm còn bị trừ điểm giấy phép lái xe như sau:"
+168-2024-ND-CP_dieu-35_khoan-1,1,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phat tién tir 1.000.000 đồng đến 2.000.000 đồng đối với hành vi vi phạm
+tụ tập dé cỗ vũ, giúp sức, xúi giục hành vi điều khiển xe chạy quá tốc độ quy định,
+lạng lách, đánh võng, đuôi nhau trên đường hoặc đua xe trái phép.
+j"
+168-2024-ND-CP_dieu-35_khoan-2,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phat tiền từ 40.000.000 đồng đến 50. 000.000 đồng đối với cá nhân, từ
+80.000.000 đồng đến 100.000.000 đồng đối với tổ chức thực hiện hành vi vi phạm
+tô chức đua xe trái phép."
+168-2024-ND-CP_dieu-35_khoan-3,2,fine_not_found,[],[],"Tịch thu phương tiện đối với người điều khiển phương tiện thực hiện một
+trong các hành vi vi phạm sau đây:
+,"
+168-2024-ND-CP_dieu-35_khoan-4,1,fine_not_found,[],[],"Ngoài việc bị tịch thu phượng tiện, người điều khiển phương tiện thực
+hiện hành vi quy định tại điểm b khoản 3 Điều này bị áp dụng hình thức xử phạt
+bé sung tước quyền sử dụng giấy phép lái xe từ 22 tháng đến 24 tháng."
+168-2024-ND-CP_dieu-36_khoan-1,2,extracted_unverified,[],"[{""min_vnd"": 300000, ""max_vnd"": 400000, ""recipient_hint"": null, ""matched_text"": ""300.000 đồng đến 400.000 đồng""}]","Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với người điều khiển
+phương tiện thực hiện một trong cáẻ hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-36_khoan-2,4,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành
+vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-37_khoan-1,2,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển
+phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài thực hiện một
+trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-37_khoan-2,1,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 4000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 4.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với hành vi điều khiển
+xe tham gia giao thông tại Việt Nam không có văn bản chấp thuận hoặc cấp phép
+của cơ quan có thâm quyền cấp theo quy định (đối với loại xe tham gia giao thông
+tại Việt Nam có quy định phải được chấp thuận hoặc cấp phép)."
+168-2024-ND-CP_dieu-37_khoan-3,3,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-37_khoan-4,2,extracted_unverified,[],"[{""min_vnd"": 8000000, ""max_vnd"": 10000000, ""recipient_hint"": null, ""matched_text"": ""8.000.000 đồng đến 10.000.000 đồng""}]","Phat tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-37_khoan-5,1,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 12000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 12.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với hành vi hoạt
+động quá phạm vi, tuyến đường, doan đường được phép hoạt động."
+168-2024-ND-CP_dieu-37_khoan-6,1,fine_not_found,[],[],"Phạt tiền từ 30.000.000 đời; đến 35.000.000 đồng đối với hành vi lưu
+hành phương tiện trên lãnh thô Việt|Nam quá thời hạn quy định."
+168-2024-ND-CP_dieu-37_khoan-7,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình |thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định|tại khoản 2; điểm b, điểm c khoản 3; điểm a
+khoản 4; khoản 6 Điêu này còn bị áp dụng biện pháp khắc phục hậu quả buộc tái
+xuất phương tiện khỏi Việt Nam."
+168-2024-ND-CP_dieu-38_khoan-1,2,extracted_unverified,[],"[{""min_vnd"": 500000, ""max_vnd"": 1000000, ""recipient_hint"": null, ""matched_text"": ""500.000 đồng đến 1.000.000 đồng""}]","Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với người điều khiển.
+xe mô tô, xe gắn máy, các loại xe thong tự xe mô tô và các loại xe tương tự xe
+gắn máy thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-38_khoan-2,2,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng dén 5.000.000 đồng""}]","Phat tiền từ 3.000.000 đồng dén 5.000.000 đồng đối với người điều khiển
+xe ô tô và các loại xe tương tự xe ổ tô thực hiện một trong các hành vi vi phạm
+sau đây:"
+168-2024-ND-CP_dieu-38_khoan-3,1,fine_not_found,[],[],"Tịch thu phương tiện đối với người điều khiển phương tiện tái phạm hành
+vị quy định tại khoản 1, khoản 2 Điều này.
+
+81"
+168-2024-ND-CP_dieu-38_khoan-4,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dung hình thức xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng
+biện pháp khắc phục hậu quả buộc đưa phương, tiện quay trở lại Khu kinh tế
+thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế,"
+168-2024-ND-CP_dieu-38_khoan-5,1,fine_not_found,[],[],"Ngoài việc bị áp dụng hình thức-xử phạt, người điều khiển phương tiện
+thực hiện hành vi vi phạm quy định tại điểm b khoản 1, điểm b khoản 2 Điều này
+bị thu hồi phù hiệu đã hết giá trị sử dụng hoặc phù hiệu không do cơ quan có thâm
+quyền cấp."
+168-2024-ND-CP_dieu-39_khoan-1,6,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phat tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với giáo viên day lái
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-39_khoan-10,1,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, cá nhân thực hiện hành vi vi
+phạm quy định tại điểm i khoản 3 Dieu nay còn bj áp dụng biện pháp khắc phục
+hậu quả thu hồi giây tờ, tài liệu giả mạo."
+168-2024-ND-CP_dieu-39_khoan-2,3,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với cơ sở đào tạo lái
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-39_khoan-3,10,extracted_unverified,[],"[{""min_vnd"": 5000000, ""max_vnd"": 10000000, ""recipient_hint"": null, ""matched_text"": ""5.000.000 đồng đến 10.000.000 đồng""}]","Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các
+hành vi vi phạm sau đây:
+|"
+168-2024-ND-CP_dieu-39_khoan-4,10,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 20000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 20.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng đối với cơ sở đảo
+tạo lái xe, trung tâm sát hạch lái xe thực hiện một trong các hành vi vi phạm
+sau day:"
+168-2024-ND-CP_dieu-39_khoan-5,9,extracted_unverified,[],"[{""min_vnd"": 20000000, ""max_vnd"": 30000000, ""recipient_hint"": null, ""matched_text"": ""20.000.000 đồng đến 30.000.000 đồng""}]","Phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với cơ sở đào tạo
+lai xe, trung tâm sát hạch lái xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-39_khoan-6,1,suspicious_ocr,"[""broken_thousands_separator""]",[],"Phạt tiền từ 15.000.000 đồ
+xe trở lên.
+Dg đến 20. 000.000 đồng đối với cá nhân, từ
+30.000.000 đồng đến 40.000.000 đồng đối với tô chức thực hiện hành vi tổ chức
+tuyển sinh, đào tạo lái xe mà không có giấy phép đào tạo lái xe."
+168-2024-ND-CP_dieu-39_khoan-7,3,fine_not_found,[],[],"Phạt tiền từ 40.000.000 đồn g đến 50.000.000 đồng đối với trung tâm sát
+hạch lái xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-39_khoan-8,1,fine_not_found,[],[],"Giáo viên dạy thực hành dé học viên thực hành lái xe thực hiện một trong
+các hành vi vi phạm quy định tại Điều 6 của Nghị định này, bị xử phạt theo quy
+định đối với hành vi vi phạm đó."
+168-2024-ND-CP_dieu-39_khoan-9,4,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm còn bị
+áp dụng các hình thức xử phạt bổ sung
+: sau day:"
+168-2024-ND-CP_dieu-3_khoan-1,3,fine_not_found,[],[],"Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông
+trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong
+các hinh thức xử phạt chính sau đây:
+-"
+168-2024-ND-CP_dieu-3_khoan-2,3,non_monetary_penalty,[],[],"Căn cứ vào tính chất, mức độ vi phạm, cá nhân, tổ chức vi phạm hành
+chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ còn có thé
+bị áp dụng một hoặc nhiều hình thức xử phạt bô sung sau đây:"
+168-2024-ND-CP_dieu-3_khoan-3,19,non_monetary_penalty,[],[],"Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn
+giao thông trong lĩnh vực giao thông đường bộ bao gôm:"
+168-2024-ND-CP_dieu-3_khoan-4,2,non_monetary_penalty,[],[],"Thủ tục thi hành biện pháp khắc phục hậu quả buộc nộp lại giấy phép,
+chứng chỉ hành nghề bị tây xóa, sữa chữa làm sai lệch nội dung; thu hồi giấy
+phép, chứng chỉ hành nghề đã hết giá trị sử dụng hoặc không do cơ quan có
+thâm quyền cấp"
+168-2024-ND-CP_dieu-40_khoan-1,3,extracted_unverified,[],"[{""min_vnd"": 8000000, ""max_vnd"": 10000000, ""recipient_hint"": ""individual"", ""matched_text"": ""8.000.000 đồng đến 10.000.000 đồng""}]","Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với cá nhân thực
+hiện một trong các hành vị vị phạm sau đây:"
+168-2024-ND-CP_dieu-40_khoan-2,7,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 15000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 15.000.000 đồng""}]","Phat tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với cơ sở đăng
+kiêm thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-40_khoan-3,6,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 15000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 15.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với cơ sở thử
+:
+nghiệm, chứng nhận xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong sản
+;
+xuất, lắp ráp và nhập khẩu thực hiện một trong các hành vi vi phạm sau đây:
+Jot"
+168-2024-ND-CP_dieu-40_khoan-4,3,extracted_unverified,[],"[{""min_vnd"": 16000000, ""max_vnd"": 20000000, ""recipient_hint"": null, ""matched_text"": ""16.000.000 đồng đến 20.000.000 đồng""}]","Phat tiền từ 16.000.000 đồng đến 20.000.000 đồng đối với cơ sở đăng
+kiểm thực hiện một trong các hành vi vi pham sau day:"
+168-2024-ND-CP_dieu-40_khoan-5,2,fine_not_found,[],[],"Phạt tiền từ 16.000.000 ang đến 20.000.000 đồng đối với cơ sở sản xuất,
+lắp ráp, cơ sở nhập khẩu, cơ sở bảo hành, bảo dưỡng hoặc tổ chức, cá nhân được
+ủy quyên thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-40_khoan-6,2,non_monetary_penalty,[],[],"Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm còn bị
+áp dụng hình thức xử phạt bổ sung sau đây:
+
+87"
+168-2024-ND-CP_dieu-41_khoan-1,1,fine_not_found,[],[],"Chủ tịch Ủy ban nhân dan các cấp có thấm quyền xử phạt đối với các hành
+vi vi phạm quy định tại Nghị định này trong phạm vi quản lý của địa phương mình."
+168-2024-ND-CP_dieu-41_khoan-2,4,fine_not_found,[],[],"Cảnh sát giao thông trong phạm vi chức năng, nhiệm vụ được giao có thâm
+quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của
+Nghị định này như sau:"
+168-2024-ND-CP_dieu-41_khoan-3,13,fine_not_found,[],[],"Cảnh sát trật tự, Cảnh sát phản ứng nhanh, Cảnh.sát cơ động, Cảnh sát
+quản lý hành chính về trật tự xã hội trong phạm vi chức năng, nhiệm vụ được giao
+có liên quan. đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ
+có thâm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản,
+điều của Nghị định này như sau:"
+168-2024-ND-CP_dieu-41_khoan-4,12,fine_not_found,[],[],"Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa
+khẩu, khu chế xuất trong phạm vi chức năng, nhiệm vụ được giao có liên quan
+|
+đến trật tự, an toàn giao thông trongilinh vực giao thông đường bộ có thâm quyền
+xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị
+định này nhu sau:
+ị"
+168-2024-ND-CP_dieu-41_khoan-5,2,fine_not_found,[],[],"Thanh tra đường bộ, người được giao thực hiện nhiệm vụ thanh tra chuyên
+ngành đường bộ trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử
+phạt tại các điểm, khoản, điều của Nghị định này như sau:"
+168-2024-ND-CP_dieu-42_khoan-1,4,fine_not_found,[],[],Chủ tịch Ủy ban nhân dân cấp xã có quyền:
+168-2024-ND-CP_dieu-42_khoan-2,5,fine_not_found,[],[],Chủ tịch Ủy ban nhân dân cấp huyện có quyền:
+168-2024-ND-CP_dieu-42_khoan-3,5,fine_not_found,[],[],Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền:
+168-2024-ND-CP_dieu-43_khoan-1,2,fine_not_found,[],[],Chiến sĩ Công an nhân dan đang thi hành công vụ có quyền:
+168-2024-ND-CP_dieu-43_khoan-2,2,fine_not_found,[],[],"Thủ trưởng đơn vi Cảnh sát ¢o động cấp đại đội, Trưởng trạm, Đội trưởng
+của người quy định tại khoản
+1 Điều này có quyển:"
+168-2024-ND-CP_dieu-43_khoan-3,3,fine_not_found,[],[],"Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa
+khâu, khu chế xuất; Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyên:"
+168-2024-ND-CP_dieu-43_khoan-4,4,fine_not_found,[],[],"Trưởng Công an cấp huyện, Trưởng phòng nghiệp vụ thuộc Cục Cảnh
+sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành
+chính về trật tự xã hội; Trưởng phòng Công an cấp tỉnh bao gồm: Trưởng
+phòng Cảnh sát quản lý hành chính về. trật tự xã hội, Trưởng phòng Cảnh sát
+giao thông, Trưởng phòng Cảnh sắt cơ động, Trung đoàn trưởng Trung đoàn
+Cảnh sát cơ động có quyên:
+
+91"
+168-2024-ND-CP_dieu-43_khoan-5,5,fine_not_found,[],[],Giám đốc Công an cấp tỉnh có quyền:
+168-2024-ND-CP_dieu-43_khoan-6,5,fine_not_found,[],[],"Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý
+hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền:"
+168-2024-ND-CP_dieu-44_khoan-1,4,fine_not_found,[],[],"Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên
+ngành đang thi hành công vụ có quyên:"
+168-2024-ND-CP_dieu-44_khoan-2,5,fine_not_found,[],[],Chánh Thanh tra Sở Giao thông vận tải có quyền:
+168-2024-ND-CP_dieu-44_khoan-3,5,fine_not_found,[],[],"Chánh Thanh tra tỉnh, thành
+không thành lập Thanh tra Sở Giao"
+168-2024-ND-CP_dieu-44_khoan-4,5,fine_not_found,[],[],"Chánh Thanh tra Bộ Giao thông vận tải, Cục trưởng Cục Đường bộ Việt
+Nam, Cục trưởng Cục Đăng kiểm Việt Nam có quyền:"
+168-2024-ND-CP_dieu-45_khoan-1,1,non_monetary_penalty,[],[],"Nguyên tắc xác định thấm quyền xử phạt vi phạm hành chính và áp
+dụng biện pháp khắc phục hậu quả về trật tự, an toàn giao thông trong lĩnh vực
+giao thông đường bộ thực hiện theo quy định tại Điều 52 của Luật Xử lý vi
+phạm hành chính."
+168-2024-ND-CP_dieu-45_khoan-2,1,fine_not_found,[],[],"Thâm quyển xử phạt vi phạm hành chính của các chức danh quy định tại
+Điều 42, Điều 43 và Điều 44 của Nghị định nay là thẩm quyền áp dụng đối với
+một hành vi vi phạm hành chính của cá nhân; trong trường hợp phạt tiền, thâm
+quyền xử phạt tổ chức gấp 02 lần thâm quyền xử phạt cá nhân."
+168-2024-ND-CP_dieu-45_khoan-3,1,fine_not_found,[],[],"Trường hợp cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại
+khoản 2, khoản 4 Điều 20; khoản 5, khoản 6 Điều 32 của Nghị định này, việc
+xác định mức tối thiểu và mức tối đa của khung tiền phạt đối với hành vi vi phạm
+được căn cứ vào mức tối thiểu và mức tối đa của khung tiền phạt quy định đối
+với mỗi người vượt quá quy định nhân với số người thực tế vượt quá quy định
+được phép chở của phương tiện."
+168-2024-ND-CP_dieu-46_khoan-1,1,fine_not_found,[],[],"Các chức danh có thấm quyền xử phạt vi phạm hành chính về trật tự, an
+toàn giao thông trong lĩnh vực giao thông đường bộ được quy định tại Điều 42, Điều
+43 và Điều 44 của Nghị định này."
+168-2024-ND-CP_dieu-46_khoan-2,1,fine_not_found,[],[],"Công chức thuộc Thanh tra Sở Giao thông vận tải đang thi hành công vụ,
+nhiệm vụ có thâm quyền lập biên bản đôi với các hành vi vi phạm xảy ra trong
+phạm vi địa bản quản lý của Thanh tra Sở Giao thông vận tải.
+_
+Mụe2
+THỦ TỤC XỬ PHẠT"
+168-2024-ND-CP_dieu-47_khoan-10,1,fine_not_found,[],[],"Việc xác minh để phát hiện hành vi vi phạm quy định tại điểm a khoản
+3, điểm h khoản 7 Điều 32 của Nghị định này được thực hiện thông qua công tác
+điều tra, giải quyết vụ tai nạn giao thông; qua công tác đăng ký xe; qua công tác
+xử lý vụ việc vi phạm hành chính tạ trụ sở đơn vị."
+168-2024-ND-CP_dieu-47_khoan-11,3,fine_not_found,[],[],"Trường hợp quá thời hạn hẹn đến giải quyết vụ việc vi phạm được ghi
+trong biên bản vi phạm hành chính hoặc trong thông báo của người có thâm quyền
+xử phạt hoặc quá thời hạn thi hành quyết định xử phạt mà chủ phương tiện vi
+phạm, người vi phạm chưa thực hiện giải quyết vụ việc vi phạm theo quy định
+hoặc chưa chấp hành quyết định xử phạt thì người có thẩm quyền xử phạt gửi
+thông báo cho cơ quan đăng kiểm (đối với phương tiện có quy định phải kiểm
+-
+định), cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe (nếu đã xác định được
+|
+người vi phạm). Việc gửi thông báo được thực hiện bằng văn bản hoặc thực hiện.
+thông báo bang phuong thuc dién tir thông qua kết nối, chia sẻ dữ liệu khi đáp
+'
+ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin.
+_a) Cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe
+trước khi thực hiện đăng kiểm, đăng ký xe, cấp, đổi, cap lại giây phép lái xe có
+-:
+trách nhiệm tra cứu dữ liệu phương tiện vi phạm, người vi phạm được cơ quan
+Cảnh sát giao thông gửi thông báo đến,"
+168-2024-ND-CP_dieu-47_khoan-12,1,fine_not_found,[],[],"Việc gửi quyết định xử phat vi phạm hành chính, quyết định tạm giữ tang
+-
+vật, phương tiện, giây phép, chứng) chỉ hành nghề theo thủ tục hành chính và các
+biểu mẫu khác trong xử phạt vi phạm hành chính thực hiện theo quy định của Luật
+Xử lý vi phạm hành chính và có thể gửi cho người vi phạm theo tài khoản đã đăng
+ký trên Cổng dịch vụ công Quốc giả, Cổng dịch vụ công Bộ Công an (sau đây viết
+gọn là Cổng dịch vụ công), tài khoản định danh điện tử trên ứng dụng định danh
+quôc gia, Ứng dụng giao thông trên thiết bị di động khi đáp ứng điều kiện về cơ
+sở hạ tầng, kỹ thuật, thông tin.
+|
+|
+‡
+L
+
+101"
+168-2024-ND-CP_dieu-47_khoan-2,1,fine_not_found,[],[],"Trong trường hợp chủ phương tiện vi phạm không có mặt tại nơi xảy ra vi
+phạm thì người có thâm quyên căn cứ vào hành vi vi phạm để lập biên ban vi
+phạm hành chính đối với chủ phương tiện va tiến hành xử phạt theo quy định của
+
+!
+|
+94
+|
+1
+pháp luật, người điều khiển phương tiện phải ký vào biên bản vi phạm hành chính
+với tư cách là người chứng kiến.
+|"
+168-2024-ND-CP_dieu-47_khoan-3,19,fine_not_found,[],[],"Đối với những hành vi vi phạm mà cùng được quy định tại các điều khác
+nhau của Chương II của Nghị định này, trong trường hợp đối tượng vi phạm trùng
+nhau thì xử phạt như sau:
+|"
+168-2024-ND-CP_dieu-47_khoan-4,1,fine_not_found,[],[],"Đối với những hành vi vi phạm quy định về tải trọng, khổ giới han của
+phương tiện, của đường bộ quy định tại Điều 21, Điều 34 của Nghị định này, trong
+trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi
+vi phạm quy định tại Điều 21, vừa thực hiện hành vi vi phạm quy định tại Điều
+34 của Nghị định này thì bị xử phạt về từng hành vi vi phạm; đối với những hành
+vi vi phạm được quy định tại điểm a khoản 4, điểm a khoản 5 Điều 34 của Nghị
+định này, trong trường hợp chủ phương tiện, người điều khiên phương tiện vừa
+thực hiện hành vi vi phạm quy định về tong trọng lượng (khối lượng toàn bộ) của
+xe, vừa thực hiện hành vi vi phạm quy định về tải trọng trục xe thi bị xứ phạt theo
+quy định của hành vi vi phạm có mức phạt tiền cao hơn."
+168-2024-ND-CP_dieu-47_khoan-5,7,fine_not_found,[],[],"Đối với các hành vi vi phạm quy định về sử dụng lòng đường, vỉa hè
+vào mục đích khác, bảo vệ môi trường, chở người vượt quá quy định được phép
+chở của phương tiện, vi phạm quy định vệ tải trọng, khé giới han của phương tiện,
+của đường bộ vi phạm về chẳng buộc vận chuyển. hàng hóa quy định tại Điều 12,
+Điều 17, Điều 20, Điều 21, Điều 26, Điều 32, Điều 34 của Nghị định này, người
+điều khiển phương tiện, chủ phương tiện, đơn vị kinh doanh vận tai, dịch vụ hỗ
+trợ vận tai, cá nhân, tổ chức vi phạm, xếp hàng lên xe ô tô thì buộc chấm dứt hành
+vi vi phạm thẻo quy định cụ thé sau đây:"
+168-2024-ND-CP_dieu-47_khoan-6,7,fine_not_found,[],[],"Chủ phương tiện bị xử phạt neo quy định tại Nghị định này là một trong
+các đối tượng sau đây:"
+168-2024-ND-CP_dieu-47_khoan-7,1,fine_not_found,[],[],"Khi xử phạt đối với chủ phương tiện quy định tại khoản 6 Điều này, thời
+hạn ra quyết định xử phạt có thé được kéo dài dé xác minh đối tượng bị xử phạt
+theo quy định tại khoản 1 Điều 66 của Luật Xử lý vi phạm hành chính."
+168-2024-ND-CP_dieu-47_khoan-8,3,fine_not_found,[],[],"Đối với trường hợp hành vi vi phạm hành chính được phát hiện thông qua
+sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ mà co quan chức năng chưa dùng
+ngay được phương tiện dé xử lý thì thực hiện như sau:"
+168-2024-ND-CP_dieu-47_khoan-9,1,fine_not_found,[],[],"Người có thấm quyền xử phật được sử dụng các thông tin trong Cơ sở dữ
+liệu về trật tự, an toàn giao thông đường bộ theo quy định của Luật Trật tự, an
+toàn giao thông đường bộ, Luật Xử, tý vi phạm hành chính, pháp luật về đo lường
+để làm căn cứ xác định hành vì vi phạm đối với cá nhân, tổ chức khi thực hiện
+một trong các hành vi vi phạm quy | định tại Nghị định này."
+168-2024-ND-CP_dieu-48_khoan-1,14,fine_not_found,[],[],"Để ngăn chặn ngay hành vi vi phạm hành chính, người có thâm quyền
+được phép tạm giữ phương tiện trước khi ra quyết định xử phạt theo quy định
+tại điểm b khoản
+1, khoản 2, khoản 8 Điều 125 của Luật Xử lý vi phạm hành
+chính đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm
+sau đây của Nghị định này:
+_"
+168-2024-ND-CP_dieu-48_khoan-2,1,fine_not_found,[],[],"Để bảo đảm thi hành quyết định xử phạt vi phạm hành chính hoặc để xác
+minh tình tiết làm căn cứ ra quyết định xử phạt, người có thâm quyền xử phạt có
+thể quyết định tạm giữ phương tiện; giấy tờ có liên quan đến người điều khiển và
+phương tiện vi phạm một trong các, ‘hanh vi quy định tại Nghị định này theo quy
+định tại điểm a, điểm c khoản 1; khoản 2; khoản 6; khoản 7; khoản 8 Điều 125
+của Luật Xử lý vi phạm hành chính. Khi bị tạm giữ giấy tờ theo quy định tại khoản
+6 Điều 125 của Luật Xử lý vi phạm hành chính, nếu quá thời hạn hẹn đến giải
+quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính, người vi phạm chưa
+thực hiện giải quyết vụ việc vi phạm theo quy định mà vẫn tiếp tục điều khiển
+phương tiện hoặc đưa phương tiện ra tham gia giao thông thì bị áp dụng xử phạt
+như hành vi không có giây tờ."
+168-2024-ND-CP_dieu-48_khoan-3,4,fine_not_found,[],[],"Đôi với trường hợp tại thời điểm kiểm tra, người điều khiển phương tiện
+không xuất trình được một, một số Hoặc tất cả các giấy tờ (giấy phép lái xe, chứng
+nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo
+bản géc giây biên nhận còn hiệu lực của tô chức tín dụng, chỉ nhánh ngân hàng
+nước ngoài trong trường hợp tổ chức tín dụng, chỉ nhánh ngân hàng nước ngoài
+giữ ban gic chimg nhan dang ky xe), giấy chứng nhận kiểm định an toàn kỹ thuật
+và bảo vệ môi trường) theo quy định ¡bản giây hoặc thông tin của các giấy tờ được
+tích hợp trong tài khoản định danh điện tử) thì xử lý như sau:"
+168-2024-ND-CP_dieu-48_khoan-4,1,fine_not_found,[],[],"Khi phương tiện bị tạm giữ theo quy định tại khoản 1, khoản 2, khoản
+3 Điều này, chủ phương tiện phải chịu mọi chỉ phí (nếu có) cho việc sử dụng
+phương tiện khác thay thế để vận chuyển người, hàng hóa được chở trên
+phương tiện bị tạm giữ.
+Trường hợp khi tạm giữ phương tiện - vi phạm hành chính nhưng người
+điều khiển phương tiện, chủ phương tiện không có mặt tại nơi xảy ra vi phạm
+hoặc có mặt nhưng không chấp hành yêu cầu của người có thâm quyền tạm giữ
+hoặc không đáp ứng yêu cầu, điều kiện theo quy định để điều khiển phương
+tiện hoặc phương tiện không bảo đảm chất lượng an toàn kỹ thuật và bảo vệ
+môi trường theo quy định thì người có thâm quyền tạm giữ thực hiện việc di
+chuyển.phương tiện vi phạm vỆ nơi tạm giữ theo quy định; nếu không đủ điều
+kiện thực hiện thì người có thâm quyền tạm giữ được thuê tổ chức; cá nhân
+thực hiện việc di chuyển phương tiện đó. Người điều khiển phương tiện hoặc
+chủ phương tiện vi phạm phải trả chi phí cho việc thuê di chuyển phương tiện
+đó về nơi tạm giữ.
+Mục 3
+TRÌNH TỰ, THỦ TỤC, THAM QUYEN TRỪ ĐIỂM,
+PHỤC HOI DIEM GIÁY PHÉP LAI XE"
+168-2024-ND-CP_dieu-4_khoan-1,1,fine_not_found,[],[],"Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong
+lĩnh vực giao thông đường bộ là 01 năm."
+168-2024-ND-CP_dieu-4_khoan-2,1,fine_not_found,[],[],"Thời han sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ
+thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tô chức cung cấp để
+xác định cá nhân, tổ chức vi phạm được tính từ thời điểm phương tiện, thiệt bị
+kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật của cá nhân, tổ chức ghi nhận
+được kết quả cho đến hết ngày cuối cùng của thời hiệu xử phạt vi phạm hành
+chính đối với hành vi vi phạm quy định tại khoản
+1 Điều 6 của Luật Xử lý vi
+phạm hành chính.
+Quá thời hạn nêu trên mà người có thẩm quyền không ra quyết định xử phạt
+theo quy định thì kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp
+vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tô chức cung cấp không còn giá trị
+sử dụng. Trường hợp cá nhân, tổ chức cố tình trốn tránh, cản trở việc xử phạt thì
+thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp
+vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tô chức cung cấp được tính lại kể từ
+thời điểm chấm dứt hành vi trốn tránh, cản trở việc xử phạt."
+168-2024-ND-CP_dieu-4_khoan-3,2,fine_not_found,[],[],"Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính dang
+thực hiện"
+168-2024-ND-CP_dieu-50_khoan-1,5,fine_not_found,[],[],Nguyên tắc trừ điểm giấy phép lái xe
+168-2024-ND-CP_dieu-50_khoan-2,1,fine_not_found,[],[],"Tham quyén trừ điểm giấy phép lái xe
+Người có thâm quyền áp dụng hình thức xử phạt tước quyền sử dụng giấy
+phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn quy
+định tại Chương II Phần thứ hai của Luật Xử lý vi phạm hành chính, Mục
+1
+:
+Chương III của Nghị định này va có thẩm quyền xử phạt vi phạm hành chính đối.
+với hành vi vi phạm có quy định trừ điểm giấy phép lái xe thì có thẩm quyên trừ
+:
+điểm giấy phép lái xe đối với hành 'vi vi phạm đó."
+168-2024-ND-CP_dieu-50_khoan-3,2,fine_not_found,[],[],"Trình tự, thủ tục trừ điểm giấy phép lái xe"
+168-2024-ND-CP_dieu-51_khoan-1,2,fine_not_found,[],[],Thâm quyền phục hồi điểm giấy phép lái xe
+168-2024-ND-CP_dieu-51_khoan-2,3,fine_not_found,[],[],"Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy
+phép lái xe chưa bị trừ hệt điểm và không bị trừ điểm trong thời han 12 tháng từ ngày
+bị trừ điểm gan nhất"
+168-2024-ND-CP_dieu-51_khoan-3,3,fine_not_found,[],[],"Trình tự, thủ tục phục hi điểm giấy phép lái xe đối với trường hợp giấy
+ˆ
+phép lái xe bị trừ hết điểm
+|"
+168-2024-ND-CP_dieu-52_khoan-1,1,non_monetary_penalty,[],[],"B6 sung khoản 2a vào sau khoản 2 Điều 1 như sau:
+“2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành
+vi vi phạm hành chính; thâm quyền lập biên bản, thâm quyên xử phạt, mức phạt
+tiền cụ thể đối với từng chức danh)về trật tự, an toàn giao thông trong lĩnh vực
+giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm
+hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ
+điểm, phục hồi điểm giấy phép lái Xe”.
+
+107"
+168-2024-ND-CP_dieu-52_khoan-2,2,fine_not_found,[],[],"Sửa đôi, bd sung một số điểm của khoản 6 Điều 28 như sau:"
+168-2024-ND-CP_dieu-52_khoan-3,1,fine_not_found,[],[],"Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau:
+“a) Thực hiện hành vi vi phạm quy | định tại điểm a, điểm b, điểm d, điểm đ,
+điểm h, điểm 1, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm
+k, điểm 1, điểm n, điểm q khoản 6; điểm e khoản 7 Điều này bị tước quyền sử dụng
+phù hiệu từ 01 tháng đến 03 tháng (nếu có hoặc đã được cấp) đối với xe vi phạm;
+b): Thuc hién hanh vi vi pham quy dinh tại điểm i, điểm k khoản 4; điểm h khoản
+6; điểm b khoản 7 Điều này bị tước quyền sử dụng giấy phép kinh doanh vận tải
+từ 01 tháng đến 03 tháng; ”.
+."
+168-2024-ND-CP_dieu-52_khoan-4,1,fine_not_found,[],[],"‘Sita đổi, bd sung điểm h khoản 11 Điều 28 như sau:"
+168-2024-ND-CP_dieu-52_khoan-5,5,fine_not_found,[],[],"Sửa đổi, bd sung một số điểm, khoản của Điều 74 như sau:"
+168-2024-ND-CP_dieu-52_khoan-6,3,fine_not_found,[],[],"Sửa đổi, bỗ sung một số điểm, khoản của Điều 80 như sau:"
+168-2024-ND-CP_dieu-52_khoan-7,1,fine_not_found,[],[],"Sửa đối, bổ sung khoản 4 Điều 82 như sau:
+“4. Khi phương tiện bị tạm|giữ theo quy định tại khoản 2 Điều này, chủ,
+phương tiện phải chịu mọi chi phí (nếu có) cho việc sử dụng phương tiện
+khác nay thé dé van chuyén người, hàng hóa được chở trên phương tiện bil
+tam git.”
+1
+|
+
+109"
+168-2024-ND-CP_dieu-52_khoan-8,15,fine_not_found,[],[],"Bai bỏ một số điểm, khoản, điều sau đây:"
+168-2024-ND-CP_dieu-52_khoan-9,4,fine_not_found,[],[],"Bỏ một số cụm từ tại các điểm, khoản, điều sau đây:"
+168-2024-ND-CP_dieu-53_khoan-1,1,fine_not_found,[],[],"Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy
+định tại khoản 2 Điều này.
+|"
+168-2024-ND-CP_dieu-53_khoan-2,1,fine_not_found,[],[],"Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b.
+khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 nam!
+2026; quy định tại điểm b khoản | Điều 32 của Nghị định này có hiệu lực thi hành,
+theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe
+gan may."
+168-2024-ND-CP_dieu-54_khoan-1,1,fine_not_found,[],[],"Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông
+trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị địnH
+này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết
+thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm
+dé xử phat."
+168-2024-ND-CP_dieu-54_khoan-2,1,fine_not_found,[],[],"Trường hợp hành vi vi phạm hành chính dang được thực hiện, thì áp
+dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để
+xử phạt.
+
+111"
+168-2024-ND-CP_dieu-5_khoan-1,7,fine_not_found,[],[],"Giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng có thời hạn trong
+Nghị định này g6m:"
+168-2024-ND-CP_dieu-5_khoan-2,1,fine_not_found,[],[],"Trình tự, thủ tục tước quyền sử dụng giấy phép, chứng chỉ hành nghề có
+thời hạn về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ được
+thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính.
+Trường hợp một cá nhân thực hiện nhiều hành vi vi phạm hành chính mà bị xử
+phạt trong cùng một lần thì bị phạt tiền đối với từng hành vi vi phạm, nếu có hành vi
+vi phạm bị tước quyền sử dụng giây phép lái xe và hành vi vi phạm bị trừ điểm giấy
+phép lái xe thì chỉ áp dụng hình thức tước quyền sử đụng giấy phép lái xe."
+168-2024-ND-CP_dieu-5_khoan-3,3,fine_not_found,[],[],"Thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ
+hành nghề như sau:"
+168-2024-ND-CP_dieu-5_khoan-4,1,fine_not_found,[],[],"Trong thời gian
+| bị tước quyền sử dụng giấy phép, chứng chỉ hành nghề, nếu
+cá nhân, tổ chức vẫn tiến hành các hoạt động ghi trong giây phép, chứng chỉ hành
+nghề thì bị xử phạt như hành vi không có giấy phép, chứng chỉ hành nghề."
+168-2024-ND-CP_dieu-5_khoan-5,1,fine_not_found,[],[],"Trường hợp cá nhân, tổ chức vi phạm hành chính bị áp dụng hình thức xử
+phạt tước quyên sử dụng giấy phép, chứng chỉ hành nghề nhưng thời hạn sử dụng
+còn lại của giây phép, chứng chỉ hành nghề đó ít hơn thời hạn bị tước thì người
+có thâm quyên van ra quyết định xử phạt có áp dụng hình thức tước quyên sử
+dụng giấy phép, chứng chỉ hành nghề theo quy định đối với hành vi vi phạm.
+Trong thời gian bị tước quyền sử dụng giấy phép, chứng chỉ hành nghề, cá nhân,
+tổ chức không được làm thủ tục cấp mới, đối, cấp lại giấy phép, chứng chỉ hành
+nghề, trừ trường hợp quy định tại khoản 6 Điều này."
+168-2024-ND-CP_dieu-5_khoan-6,1,fine_not_found,[],[],"Trường hợp tước quyền sử dụng giấy phép lái xe tích hợp giấy phép lái
+xe không thời hạn (xe mô tô, xe tương tự xe mô tô) và giấy phép lái xe có thời
+hạn (xe ô tô, xe tương tự xe ô tô, xe chở người bốn bánh có gan động cơ, xe
+chở hàng, bến bánh có gan động cơ) thì người có thâm quyền xử phạt áp dụng
+tước quyền sử dụng đối với giấy phép lái xe không thời hạn khi người điều
+khiển xe mô tô, xe tương tự xe mô tô hoặc tước quyền sử dụng đối với giấy
+phép lái xe có thời hạn khi người điều khiển xe ô tô, xe tương tự xe ô tô, xe
+chở người bến bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ
+thực hiện hành vi vi phạm hành chính có quy định bị tước quyền sử dụng giấy
+phép lái xe. Trong thời gian bị tước quyền sử dụng, người có giây phép lái xe
+tích hợp được câp, đôi giấy phép lái xe đối với giây phép lái xe không bị tước
+quyên sử dụng."
+168-2024-ND-CP_dieu-5_khoan-7,1,non_monetary_penalty,[],[],"Trường hợp giấy phép, chứng chỉ hành nghề được cấp dưới dạng điện tử
+hoặc thé hiện dưới hình thức thông điệp dữ liệu thì co quan, người có thẩm quyền
+thực hiện tạm giữ, tước trên môi trường điện tử theo quy định nêu đáp ứng điều
+kiện về cơ sở hạ tang, kỹ thuật, thông tin. Việc tạm giữ, tước quyền sử dụng được
+cập nhật trạng thái trên cơ sở dữ liệu, căn cước điện tử, tài khoản định danh điện
+tử và ứng dụng thông tin điện tử khác theo quy định.
+-
+
+§
+Chương II
+HANH VI VI PHAM, HÌNH THỨC, MỨC XỬ PHẠT, MỨC TRU DIEM
+GIÁY PHÉP LÁI XE VÀ BIỆN PHÁP KHẮC PHỤC HẬU QUÁ
+VI PHAM HANH CHÍNH VE TRẬT TỰ, AN TOÀN GIAO THONG
+TRONG LINH VUC GIAO THONG DUONG BO
+Muc 1
+`
+VI PHAM QUY TAC GIAO THONG DUONG BO"
+168-2024-ND-CP_dieu-6_khoan-1,5,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-10,2,extracted_unverified,[],"[{""min_vnd"": 20000000, ""max_vnd"": 22000000, ""recipient_hint"": null, ""matched_text"": ""20.000.000 động đến 22.000.000 đồng""}]","Phạt tiền từ 20.000.000 động đến 22.000.000 đồng đối với người điều
+khiển xe thực hiện một trong các hành vi vi pham sau day:"
+168-2024-ND-CP_dieu-6_khoan-11,5,extracted_unverified,[],"[{""min_vnd"": 30000000, ""max_vnd"": 40000000, ""recipient_hint"": null, ""matched_text"": ""30.000.000 đồng đến 40.000.000 đồng""}]","Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng đối với người điều
+khiển xe thực hiện một trong các ‘an vi vi pham sau day:"
+168-2024-ND-CP_dieu-6_khoan-12,1,extracted_unverified,[],"[{""min_vnd"": 40000000, ""max_vnd"": 50000000, ""recipient_hint"": null, ""matched_text"": ""40.000.000 đồng đến 50.000.000 đồng""}]","Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với người điều
+khiển xe thực hiện hành vi điều khiển xe lạng lách, đánh võng trên đường bộ;
+chạy quá tốc độ đuổi nhau trên đường bộ; dùng chân điều khiến vô lăng xe khi
+xe đang chạy trên đường bộ.
+_"
+168-2024-ND-CP_dieu-6_khoan-13,1,extracted_unverified,[],"[{""min_vnd"": 50000000, ""max_vnd"": 70000000, ""recipient_hint"": null, ""matched_text"": ""50.000.000 đồng đến 70.000.000 đồng""}]","Phat tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với người
+điều khiển xe thực hiện hành vi vi phạm quy định tại khoản 12 Điều này mà
+gây tai nạn giao thông."
+168-2024-ND-CP_dieu-6_khoan-14,1,fine_not_found,[],[],"Tịch thu phương tiện đối với người điều khiến xe tái phạm hành vi điều
+khiên xe lạng lách, đánh võng quy định tại khoản 12 Dieu này."
+168-2024-ND-CP_dieu-6_khoan-15,3,non_monetary_penalty,[],[],"Ngoai việc bị phạt tiền, người điều khiển xe thực hiện hành vi vi phạm
+còn bị áp dụng các hình thức xử phạt bé sung sau đây:"
+168-2024-ND-CP_dieu-6_khoan-16,4,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện
+hành vi vi phạm còn bị trừ điểm giấy phép lái xe như sau:"
+168-2024-ND-CP_dieu-6_khoan-2,5,extracted_unverified,[],"[{""min_vnd"": 600000, ""max_vnd"": 800000, ""recipient_hint"": null, ""matched_text"": ""600.000 đồng đến 800.000 đồng""}]","Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-3,15,suspicious_ocr,"[""stray_digit_near_amount""]",[],"Phạt tiền từ 800.000 đồng đến 1.000.000
+0
+đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-4,11,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vì vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-5,16,fine_not_found,[],[],"Phat tiền từ 4.000.000 đằng dén 6.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-6,4,extracted_unverified,[],"[{""min_vnd"": 6000000, ""max_vnd"": 8000000, ""recipient_hint"": null, ""matched_text"": ""6.000.000 đồng đến 8.000.000 đồng""}]","Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-7,3,extracted_unverified,[],"[{""min_vnd"": 12000000, ""max_vnd"": 14000000, ""recipient_hint"": null, ""matched_text"": ""12.000.000 đồng đến 14.000.000 đồng""}]","Phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng đối với người điều
+khiên xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-6_khoan-8,1,extracted_unverified,[],"[{""min_vnd"": 16000000, ""max_vnd"": 18000000, ""recipient_hint"": null, ""matched_text"": ""16.000.000 đồng đến 18.000.000 đồng""}]","Phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng đối với người điều
+khiển xe thực hiện hành vi vi phạm gây tai nạn giao thông không dừng ngay
+phương tiện, không giữ nguyên high trường, không trợ giúp người bị nan, không
+ở lại hiện trường hoặc không đến trình báo ngay với cơ quan công an, Ủy ban
+nhân dân nơi gan nhất."
+168-2024-ND-CP_dieu-6_khoan-9,4,fine_not_found,[],[],"Phạt tiền từ 18.000.000 aihe đến 20.000.000 đồng đối với người điều
+khiển xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-1,10,extracted_unverified,[],"[{""min_vnd"": 200000, ""max_vnd"": 400000, ""recipient_hint"": null, ""matched_text"": ""200.000 đồng đến 400.000 đồng""}]","Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-10,2,extracted_unverified,[],"[{""min_vnd"": 10000000, ""max_vnd"": 14000000, ""recipient_hint"": null, ""matched_text"": ""10.000.000 đồng đến 14.000.000 đồng""}]","Phạt tiền từ 10.000.000 đồng đến 14.000.000 đồng đối với người điều
+khiên xe thực hiện một trong các hành vi vi pham sau day:"
+168-2024-ND-CP_dieu-7_khoan-11,3,fine_not_found,[],[],"Tịch thu phương tiện đối với người điều khiển xe thực hiện một trong
+các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-12,3,non_monetary_penalty,[],[],"Ngoài việc bị áp dụng hình thức xử phạt chính, người điều khiển xe thực
+hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bô sung sau đây:
+„"
+168-2024-ND-CP_dieu-7_khoan-13,4,fine_not_found,[],[],"Ngoài việc bị áp dụng bình thức xử phạt, người điều khiển xe thực hiện
+hành vi vi phạm còn bị trừ điểm giây phép lái xe như sau:"
+168-2024-ND-CP_dieu-7_khoan-2,10,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-3,11,extracted_unverified,[],"[{""min_vnd"": 600000, ""max_vnd"": 800000, ""recipient_hint"": null, ""matched_text"": ""600.000 đồng đến 800.000 đồng""}]","Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-4,5,fine_not_found,[],[],"Phạt tiền từ 800.000 đồng|iền 1.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau day:"
+168-2024-ND-CP_dieu-7_khoan-5,3,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-6,3,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiến
+xe thực hiện một trong các hành vi vi phạm sau đây:
+=) Diéu khiển xe trên đường mà trong máu hoặc hơi thé có nồng độ cồn
+nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25
+miligam/1
+lít khí thở;
+_"
+168-2024-ND-CP_dieu-7_khoan-7,5,extracted_unverified,[],"[{""min_vnd"": 4000000, ""max_vnd"": 6000000, ""recipient_hint"": null, ""matched_text"": ""4.000.000 đồng đến 6.000.000 đồng""}]","Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-8,2,fine_not_found,[],[],"Phat tiền tir 6.000.000 đồng đến 8.000.000 đẳng đối với người điều khiển
+; Ị
+xe thực hiện một trong các hành vị vi phạm sau đây:"
+168-2024-ND-CP_dieu-7_khoan-9,10,extracted_unverified,[],"[{""min_vnd"": 8000000, ""max_vnd"": 10000000, ""recipient_hint"": null, ""matched_text"": ""8.000.000 đồng đến 10.000.000 đồng""}]","Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với người điều khiển
+¡
+xe thực hiện một trong các hành vilvi pham sau day:"
+168-2024-ND-CP_dieu-8_khoan-1,2,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-8_khoan-2,4,extracted_unverified,[],"[{""min_vnd"": 600000, ""max_vnd"": 800000, ""recipient_hint"": null, ""matched_text"": ""600.000 đồng đến 800.000 đồng""}]","Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:
+.8) Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi
+có lề đường rộng; dùng xe, đỗ xe không sát mép đường phía bên phải theo
+chiều đi ở nơi đường có lề đường hẹp hoặc không có lề đường; đừng xe, đỗ xe
+ngược với chiều lưu thông của làn đường; dừng xe, đỗ xe trên dải phân cách cố
+định ở giữa hai phần đường xe chạy; dừng xe, đỗ xe không đúng vị trí quy định
+ở những đoạn đường đã có bố trí ndi dừng xe, đỗ xe; đỗ xe trên dốc không chèn
+bánh; dừng xe nơi có biển “Cấm dừng xe và đỗ xe”; đỗ xe nơi có biển “Cấm
+đỗ xe” hoặc biển “Cam dirng xe va đỗ xe”, trừ hành vi vi phạm quy định tại
+điểm b khoản 6 Điều này;"
+168-2024-ND-CP_dieu-8_khoan-3,5,extracted_unverified,[],"[{""min_vnd"": 800000, ""max_vnd"": 1000000, ""recipient_hint"": null, ""matched_text"": ""800.000 đồng đến 1.000.000 đồng""}]","Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-8_khoan-4,6,extracted_unverified,[],"[{""min_vnd"": 1000000, ""max_vnd"": 2000000, ""recipient_hint"": null, ""matched_text"": ""1.000.000 đồng đến 2.000.000 đồng""}]","Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-8_khoan-5,5,extracted_unverified,[],"[{""min_vnd"": 2000000, ""max_vnd"": 3000000, ""recipient_hint"": null, ""matched_text"": ""2.000.000 đồng đến 3.000.000 đồng""}]","Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi pham sau day:"
+168-2024-ND-CP_dieu-8_khoan-6,9,extracted_unverified,[],"[{""min_vnd"": 3000000, ""max_vnd"": 5000000, ""recipient_hint"": null, ""matched_text"": ""3.000.000 đồng đến 5.000.000 đồng""}]","Phat tiền từ 3.000.000 đồng đến 5.000.000 đồng đói với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-8_khoan-7,4,extracted_unverified,[],"[{""min_vnd"": 6000000, ""max_vnd"": 8000000, ""recipient_hint"": null, ""matched_text"": ""6.000.000 đồng đến 8.000.000 đồng""}]","Phat tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển
+xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-8_khoan-8,4,extracted_unverified,[],"[{""min_vnd"": 14000000, ""max_vnd"": 16000000, ""recipient_hint"": null, ""matched_text"": ""14.000.000 đồng đến 16.000.000 đồng""}]","Phạt tiền từ 14.000.000 đồng đến 16.000.000 đồng đối với người điều
+khiển xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-8_khoan-9,6,extracted_unverified,[],"[{""min_vnd"": 18000000, ""max_vnd"": 20000000, ""recipient_hint"": null, ""matched_text"": ""18.000.000 đồng đến 20.000.000 đồng""}]","Phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng đối với người điều
+khiển xe thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-9_khoan-1,15,extracted_unverified,[],"[{""min_vnd"": 100000, ""max_vnd"": 200000, ""recipient_hint"": null, ""matched_text"": ""100.000 đồng đến 200.000 đồng""}]","Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau day:"
+168-2024-ND-CP_dieu-9_khoan-2,5,extracted_unverified,[],"[{""min_vnd"": 150000, ""max_vnd"": 250000, ""recipient_hint"": null, ""matched_text"": ""150.000 dong đến 250.000 đồng""}]","Phat tién tir 150.000 dong đến 250.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-9_khoan-3,4,fine_not_found,[],[],"Phat tién tir 300.000 déng dén 400.000 đồng đổi với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-9_khoan-4,5,extracted_unverified,[],"[{""min_vnd"": 400000, ""max_vnd"": 600000, ""recipient_hint"": null, ""matched_text"": ""400.000 đồng đến 600.000 đồng""}]","Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe
+thực hiện một trong các hành vi vi phạm sau đây:"
+168-2024-ND-CP_dieu-9_khoan-5,1,extracted_unverified,[],"[{""min_vnd"": 800000, ""max_vnd"": 1200000, ""recipient_hint"": null, ""matched_text"": ""800.000 đồng đến 1.200.000 đồng""}]","Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với người điều khiển
+xe đi vào đường cao tộc, trừ phương tiện phục vụ việc quản lý, bảo trì đường
+cao tôc."
