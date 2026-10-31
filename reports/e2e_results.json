@@ -1,6 +1,6 @@
 {
   "name": "VietTraffic RAG E2E Evaluation",
-  "generated_at": "2026-10-31T17:55:11.295243+00:00",
+  "generated_at": "2026-10-31T18:14:11.811684+00:00",
   "top_k": 5,
   "total_tests": 10,
   "passed": 10,
@@ -121,7 +121,7 @@
           "Điểm h Khoản 2 Điều 7"
         ]
       },
-      "duration_seconds": 2.531
+      "duration_seconds": 2.93
     },
     {
       "id": "helmet_driver_passenger",
@@ -156,12 +156,12 @@
         "selected_ids": [
           "168-2024-ND-CP_dieu-7_khoan-2_diem-i"
         ],
-        "answer": "Hành vi lái xe máy chở người ngồi sau không đội mũ bảo hiểm vi phạm quy định tại điểm i khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP. Cụ thể, người lái xe không đảm bảo an toàn cho người ngồi sau bằng cách không đội mũ bảo hiểm hoặc đội mũ không đúng quy cách.\n\nCăn cứ pháp luật tương ứng là:\n- Điểm i Khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "answer": "Hành vi lái xe máy chở người ngồi sau không đội mũ bảo hiểm vi phạm quy định tại điểm i Khoản 2 Điều 7 của Nghị định 168/2024/NĐ-CP. Cụ thể, việc chở người ngồi trên xe mà không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không đúng quy cách là hành vi vi phạm pháp luật, trừ một số trường hợp đặc biệt như chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, hoặc áp giải người có hành vi vi phạm pháp luật.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
         "citations": [
           "Điểm i Khoản 2 Điều 7"
         ]
       },
-      "duration_seconds": 3.255
+      "duration_seconds": 2.453
     },
     {
       "id": "helmet_passenger",
@@ -196,12 +196,12 @@
         "selected_ids": [
           "168-2024-ND-CP_dieu-12_khoan-5_diem-b"
         ],
-        "answer": "Hành vi không đội mũ bảo hiểm khi ngồi sau xe máy vi phạm quy định về an toàn giao thông. Cụ thể, theo **Điểm b Khoản 5 Điều 12** của Nghị định 168/2024/NĐ-CP, người tham gia giao thông trên mô tô, xe máy phải đội mũ bảo hiểm đúng quy cách.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "answer": "Hành vi không đội mũ bảo hiểm cho người ngồi sau xe máy hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ là vi phạm quy định về an toàn giao thông.\n\nCăn cứ pháp luật tương ứng là:\n- Điểm b Khoản 5 Điều 12 của Nghị định 168/2024/NĐ-CP.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
         "citations": [
           "Điểm b Khoản 5 Điều 12"
         ]
       },
-      "duration_seconds": 2.15
+      "duration_seconds": 2.484
     },
     {
       "id": "red_light_motorcycle",
@@ -232,12 +232,12 @@
         "selected_ids": [
           "168-2024-ND-CP_dieu-7_khoan-7_diem-c"
         ],
-        "answer": "Hành vi xe máy vượt đèn đỏ được quy định là \"Không chấp hành hiệu lệnh của đèn tín hiệu giao thông\". \n\nCăn cứ pháp luật tương ứng là: **Điểm c Khoản 7 Điều 7 Nghị định 168/2024/NĐ-CP**.\n\nHiện tại, tôi chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "answer": "Hành vi xe máy vượt đèn đỏ được xác định là không chấp hành hiệu lệnh của đèn tín hiệu giao thông. Căn cứ pháp luật tương ứng là:\n\n- **Điểm c Khoản 7 Điều 7** của Nghị định 168/2024/NĐ-CP.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
         "citations": [
           "Điểm c Khoản 7 Điều 7"
         ]
       },
-      "duration_seconds": 1.795
+      "duration_seconds": 2.692
     },
     {
       "id": "red_light_car",
@@ -273,7 +273,7 @@
           "Điểm b Khoản 9 Điều 6"
         ]
       },
-      "duration_seconds": 1.9
+      "duration_seconds": 1.799
     },
     {
       "id": "speed_motorcycle",
@@ -338,12 +338,12 @@
           "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
           "168-2024-ND-CP_dieu-6_khoan-6_diem-c"
         ],
-        "answer": "Hành vi điều khiển ô tô mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililit máu hoặc vượt qua 0,4 miligam/1 lít khí thở là vi phạm quy định về an toàn giao thông.\n\nCăn cứ pháp luật tương ứng là:\n- Điểm a Khoản 11 Điều 6 Nghị định 168/2024/NĐ-CP.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "answer": "Hành vi điều khiển ô tô mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililit máu hoặc vượt quá 0,4 miligam/1 lít khí thở là vi phạm quy định về an toàn giao thông.\n\nCăn cứ pháp luật tương ứng là: **Điểm a Khoản 11 Điều 6 Nghị định 168/2024/NĐ-CP**.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
         "citations": [
           "Điểm a Khoản 11 Điều 6"
         ]
       },
-      "duration_seconds": 2.039
+      "duration_seconds": 3.505
     },
     {
       "id": "license_motorcycle",
@@ -374,12 +374,12 @@
         "selected_ids": [
           "168-2024-ND-CP_dieu-50_khoan-1_diem-b"
         ],
-        "answer": "Hành vi không có giấy phép lái xe máy được coi là vi phạm hành chính. Căn cứ pháp luật liên quan đến việc xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ không được nêu rõ trong thông tin bạn cung cấp. \n\nCăn cứ pháp luật hiện có là \"Điểm b Khoản 1 Điều 50\" của Nghị định 168/2024/NĐ-CP, tuy nhiên, nội dung này không đề cập cụ thể đến mức phạt cho hành vi không có giấy phép lái xe.\n\nDo đó, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện tại.",
+        "answer": "Hành vi không có giấy phép lái xe máy được coi là vi phạm hành chính. Căn cứ pháp luật liên quan đến việc xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ không được cung cấp trong dữ liệu hiện tại. \n\nDo đó, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện tại.",
         "citations": [
           "Điểm b Khoản 1 Điều 50"
         ]
       },
-      "duration_seconds": 2.354
+      "duration_seconds": 1.892
     },
     {
       "id": "greeting",

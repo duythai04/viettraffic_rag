@@ -6,6 +6,7 @@ import unicodedata
 from typing import Any
 
 from src.retrieval.vehicle_detector import VehicleDetector
+from src.evidence.speed_range_validator import SpeedRangeValidator
 
 
 class LegalEvidenceSelector:
@@ -17,6 +18,7 @@ class LegalEvidenceSelector:
         - Detect violation category.
         - Identify the legally relevant role.
         - Reject incompatible evidence.
+        - Validate speed ranges.
         - Rank legal evidence.
         - Attach metadata for verified fine lookup.
 
@@ -61,8 +63,6 @@ class LegalEvidenceSelector:
         ],
     }
 
-    # Chỉ ánh xạ những căn cứ đã được nhận diện rõ.
-    # Đây là metadata phân loại, KHÔNG phải xác minh mức phạt.
     KNOWN_EVIDENCE = {
         "168-2024-ND-CP_dieu-7_khoan-2_diem-h": {
             "violation_key": "helmet_driver",
@@ -108,7 +108,11 @@ class LegalEvidenceSelector:
 
         self.max_evidence = max_evidence
         self.min_score = float(min_score)
+
         self.vehicle_detector = VehicleDetector()
+
+        # NEW: Speed-aware Evidence Validation
+        self.speed_validator = SpeedRangeValidator()
 
     # ==========================================================
     # NORMALIZATION
@@ -165,6 +169,7 @@ class LegalEvidenceSelector:
         self,
         text: str,
     ) -> set[str]:
+
         normalized = self._normalize(text)
 
         detected = set()
@@ -188,15 +193,7 @@ class LegalEvidenceSelector:
         self,
         question: str,
     ) -> str | None:
-        """
-        Detect the person whose legal responsibility
-        is being asked about.
 
-        Distinguish:
-            driver
-            passenger
-            driver_responsible_for_passenger
-        """
         text = self._normalize(question)
 
         driver_pattern = (
@@ -217,8 +214,6 @@ class LegalEvidenceSelector:
             re.search(passenger_pattern, text)
         )
 
-        # Driver is explicitly responsible for carrying
-        # a passenger who violates helmet requirements.
         driver_responsibility_patterns = [
             (
                 r"(?:người lái|người điều khiển|"
@@ -241,7 +236,6 @@ class LegalEvidenceSelector:
             ):
                 return "driver_responsible_for_passenger"
 
-            # Both roles appear, but responsibility is unclear.
             return None
 
         if passenger_mentioned:
@@ -260,12 +254,7 @@ class LegalEvidenceSelector:
         self,
         context: dict,
     ) -> str | None:
-        """
-        Detect legal responsibility described by evidence.
 
-        Explicitly recognized evidence metadata takes
-        precedence over heuristic text classification.
-        """
         chunk_id = context.get("chunk_id")
 
         known = self.KNOWN_EVIDENCE.get(chunk_id)
@@ -315,11 +304,7 @@ class LegalEvidenceSelector:
         context: dict,
         evidence_role: str | None,
     ) -> str | None:
-        """
-        Assign a fine lookup key only to known evidence.
 
-        Unknown evidence must not receive a guessed key.
-        """
         chunk_id = context.get("chunk_id")
 
         known = self.KNOWN_EVIDENCE.get(chunk_id)
@@ -336,14 +321,7 @@ class LegalEvidenceSelector:
         self,
         context: dict,
     ) -> str | None:
-        """
-        Resolve vehicle type from context metadata.
 
-        For explicitly mapped evidence, use the known
-        legal classification.
-
-        Never infer the evidence vehicle from the question.
-        """
         chunk_id = context.get("chunk_id")
 
         known = self.KNOWN_EVIDENCE.get(chunk_id)
@@ -357,8 +335,6 @@ class LegalEvidenceSelector:
 
         expected = known["vehicle_type"]
 
-        # Contradictory metadata must not be silently
-        # replaced with the known mapping.
         if existing is not None and existing != expected:
             return existing
 
@@ -373,6 +349,7 @@ class LegalEvidenceSelector:
         query_vehicle: str | None,
         context_vehicle: str | None,
     ) -> bool:
+
         query_vehicle = self._normalize_vehicle(
             query_vehicle
         )
@@ -394,6 +371,7 @@ class LegalEvidenceSelector:
         query_role: str | None,
         context_role: str | None,
     ) -> bool:
+
         if (
             query_role is None
             or context_role is None
@@ -407,6 +385,7 @@ class LegalEvidenceSelector:
         query_violations: set[str],
         context_violations: set[str],
     ) -> bool:
+
         if not query_violations:
             return True
 
@@ -500,6 +479,16 @@ class LegalEvidenceSelector:
             question
         )
 
+        # NEW: Extract requested speed excess.
+        query_speed = None
+
+        if "speed" in query_violations:
+            query_speed = (
+                self.speed_validator.extract_query_speed(
+                    question
+                )
+            )
+
         candidates = []
         rejected = []
 
@@ -546,8 +535,6 @@ class LegalEvidenceSelector:
 
             rejection_reasons = []
 
-            # Check contradictory metadata against
-            # explicitly known evidence classification.
             known = self.KNOWN_EVIDENCE.get(chunk_id)
 
             if known is not None:
@@ -587,6 +574,30 @@ class LegalEvidenceSelector:
                 rejection_reasons.append(
                     "violation_mismatch"
                 )
+
+            # ==================================================
+            # SPEED-AWARE EVIDENCE VALIDATION
+            # ==================================================
+
+            if query_speed is not None:
+
+                speed_content = (
+                    context.get("violation")
+                    or context.get("content")
+                    or ""
+                )
+
+                speed_valid = (
+                    self.speed_validator.validate(
+                        speed=query_speed,
+                        content=speed_content,
+                    )
+                )
+
+                if not speed_valid:
+                    rejection_reasons.append(
+                        "speed_range_mismatch_or_unknown"
+                    )
 
             if rejection_reasons:
                 rejected.append({
@@ -651,6 +662,7 @@ class LegalEvidenceSelector:
             "query_violations": sorted(
                 query_violations
             ),
+            "query_speed_excess": query_speed,
             "selected_evidence": selected,
             "rejected_evidence": rejected,
             "requires_clarification": (

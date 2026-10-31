@@ -4,6 +4,7 @@ from src.evidence.legal_evidence_selector import LegalEvidenceSelector
 from src.generation.grounded_answer import GroundedAnswerGenerator
 from src.query.intent_detector import QueryIntentDetector
 from src.query.clarification_detector import ClarificationDetector
+from src.conversation.conversation_manager import ConversationManager
 
 
 class QueryPipeline:
@@ -15,6 +16,7 @@ class QueryPipeline:
         context_reconstructor=None,
         evidence_selector=None,
         clarification_detector=None,
+        conversation_manager=None,
     ):
         self.retriever = retriever
 
@@ -42,6 +44,12 @@ class QueryPipeline:
             clarification_detector
             if clarification_detector is not None
             else ClarificationDetector()
+        )
+
+        self.conversation_manager = (
+            conversation_manager
+            if conversation_manager is not None
+            else ConversationManager()
         )
 
     def _build_response(
@@ -250,6 +258,7 @@ class QueryPipeline:
         as_of: str | None = None,
         top_k: int = 5,
         debug: bool = False,
+        session_id: str | None = None,
     ) -> dict:
 
         # =====================================================
@@ -273,6 +282,50 @@ class QueryPipeline:
                 "top_k must be a positive integer"
             )
 
+        def with_conversation_metadata(result: dict) -> dict:
+            if session_id is not None:
+                result["session_id"] = session_id
+            if rewritten_question is not None:
+                result["original_question"] = original_question
+                result["rewritten_question"] = rewritten_question
+            return result
+
+        # Resolve a follow-up before intent detection. The original message
+        # is retained in response metadata for the UI.
+        original_question = question
+        rewritten_question = None
+        if session_id is not None:
+            session = self.conversation_manager.get_session(session_id)
+            if session is None:
+                raise ValueError("Unknown session_id; call create_session() first")
+
+            if session.pending_question is not None:
+                rewritten_question = self.conversation_manager.resolve_followup(
+                    session_id=session_id,
+                    message=question,
+                )
+                if rewritten_question is not None:
+                    question = rewritten_question
+                else:
+                    # An unrelated new question supersedes a pending follow-up.
+                    # A bare invalid reply leaves the pending clarification intact.
+                    if not any(ch.isdigit() for ch in question) and len(question.split()) <= 4:
+                        result = self._build_response(
+                            question=original_question,
+                            intent="legal_fine",
+                            answer="Vui lòng cho biết mức vượt tốc độ, ví dụ: 15 km/h.",
+                        )
+                        result["requires_clarification"] = True
+                        result["clarification_reason"] = session.clarification_reason
+                        result["session_id"] = session_id
+                        if debug:
+                            result["retrieval_results"] = []
+                            result["legal_contexts"] = []
+                            result["evidence_selection"] = {"selected_evidence": []}
+                        return with_conversation_metadata(result)
+                    session.pending_question = None
+                    session.clarification_reason = None
+
         # =====================================================
         # 2. INTENT DETECTION
         # =====================================================
@@ -285,10 +338,10 @@ class QueryPipeline:
         )
 
         if non_legal_response is not None:
-            return non_legal_response
+            return with_conversation_metadata(non_legal_response)
 
         if intent not in {"legal_fine", "legal_general"}:
-            return self._build_response(
+            result = self._build_response(
                 question=question,
                 intent=intent,
                 answer=(
@@ -297,6 +350,7 @@ class QueryPipeline:
                     "giao thông cần tra cứu."
                 ),
             )
+            return with_conversation_metadata(result)
 
         # =====================================================
         # 3. QUERY CLARIFICATION - NEW
@@ -307,6 +361,12 @@ class QueryPipeline:
         )
 
         if clarification["requires_clarification"]:
+            if session_id is not None:
+                self.conversation_manager.save_clarification(
+                    session_id=session_id,
+                    question=question,
+                    reason=clarification["reason"],
+                )
 
             final_response = self._build_response(
                 question=question,
@@ -334,7 +394,7 @@ class QueryPipeline:
                     "clarification_reason": clarification["reason"],
                 }
 
-            return final_response
+            return with_conversation_metadata(final_response)
 
         # =====================================================
         # 4. HYBRID RETRIEVAL
@@ -375,7 +435,7 @@ class QueryPipeline:
                     "requires_clarification": True,
                 }
 
-            return final_response
+            return with_conversation_metadata(final_response)
 
         # =====================================================
         # 5. LEGAL CONTEXT RECONSTRUCTION
@@ -421,7 +481,7 @@ class QueryPipeline:
                 final_response["legal_contexts"] = contexts
                 final_response["evidence_selection"] = evidence_result
 
-            return final_response
+            return with_conversation_metadata(final_response)
 
         # =====================================================
         # 7. GROUNDED ANSWER GENERATION
@@ -456,4 +516,4 @@ class QueryPipeline:
             final_response["legal_contexts"] = contexts
             final_response["evidence_selection"] = evidence_result
 
-        return final_response
+        return with_conversation_metadata(final_response)
