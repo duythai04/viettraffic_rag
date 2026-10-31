@@ -1,0 +1,23 @@
+[
+  {
+    "clause_id": "168-2024-ND-CP_dieu-7_khoan-4",
+    "chunk_id": "168-2024-ND-CP_dieu-7_khoan-4_diem-a",
+    "vehicle_type": "motorcycle",
+    "role": "driver",
+    "violation_key": "speed_10_to_20",
+    "fine_ranges": [
+      {
+        "recipient": "driver",
+        "min_vnd": 800000,
+        "max_vnd": 1000000
+      }
+    ],
+    "source_reference": "Điểm a Khoản 4 Điều 7",
+    "source_document": "Nghị định 168/2024/NĐ-CP",
+    "verified_by": "PENDING_REVIEW",
+    "verification_note": "Da doi chieu noi dung voi van ban goc tren Cong thong tin Chinh phu. Cho nguoi kiem duyet xac nhan hieu luc va cac sua doi.",
+    "review_confirmed": false,
+    "effective_from": "2025-01-01",
+    "effective_to": null
+  }
+]

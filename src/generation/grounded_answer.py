@@ -8,6 +8,7 @@ from src.generation.answer_validator import AnswerValidator
 from src.llm.llm_client import LLMClient
 from src.llm.prompt_builder import LegalPromptBuilder
 from src.validation.verified_fine_resolver import VerifiedFineResolver
+from src.evidence.fine_evidence_enricher import FineEvidenceEnricher
 
 
 class GroundedAnswerGenerator:
@@ -608,8 +609,14 @@ class GroundedAnswerGenerator:
                 ],
             )
 
+      # Enrich metadata for supported legal fine evidence.
+        enriched_context = FineEvidenceEnricher.enrich(
+            question=question,
+            context=best_context,
+        )
+
         selected_contexts = [
-            best_context
+            enriched_context
         ]
 
         citations = self._collect_citations(
