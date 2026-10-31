@@ -3,6 +3,7 @@ from __future__ import annotations
 from src.evidence.legal_evidence_selector import LegalEvidenceSelector
 from src.generation.grounded_answer import GroundedAnswerGenerator
 from src.query.intent_detector import QueryIntentDetector
+from src.query.clarification_detector import ClarificationDetector
 
 
 class QueryPipeline:
@@ -13,6 +14,7 @@ class QueryPipeline:
         intent_detector=None,
         context_reconstructor=None,
         evidence_selector=None,
+        clarification_detector=None,
     ):
         self.retriever = retriever
 
@@ -34,6 +36,12 @@ class QueryPipeline:
             evidence_selector
             if evidence_selector is not None
             else LegalEvidenceSelector()
+        )
+
+        self.clarification_detector = (
+            clarification_detector
+            if clarification_detector is not None
+            else ClarificationDetector()
         )
 
     def _build_response(
@@ -243,6 +251,11 @@ class QueryPipeline:
         top_k: int = 5,
         debug: bool = False,
     ) -> dict:
+
+        # =====================================================
+        # 1. INPUT VALIDATION
+        # =====================================================
+
         if not isinstance(question, str):
             raise TypeError("Question must be a string")
 
@@ -259,6 +272,10 @@ class QueryPipeline:
             raise ValueError(
                 "top_k must be a positive integer"
             )
+
+        # =====================================================
+        # 2. INTENT DETECTION
+        # =====================================================
 
         intent = self.intent_detector.detect(question)
 
@@ -281,6 +298,48 @@ class QueryPipeline:
                 ),
             )
 
+        # =====================================================
+        # 3. QUERY CLARIFICATION - NEW
+        # =====================================================
+
+        clarification = self.clarification_detector.detect(
+            question
+        )
+
+        if clarification["requires_clarification"]:
+
+            final_response = self._build_response(
+                question=question,
+                intent=intent,
+                answer=clarification["message"],
+                citations=[],
+                verified=False,
+                retrieved_chunks=0,
+                selected_evidence_count=0,
+            )
+
+            final_response["requires_clarification"] = True
+
+            final_response["clarification_reason"] = (
+                clarification["reason"]
+            )
+
+            if debug:
+                final_response["retrieval_results"] = []
+                final_response["legal_contexts"] = []
+                final_response["evidence_selection"] = {
+                    "question": question,
+                    "selected_evidence": [],
+                    "requires_clarification": True,
+                    "clarification_reason": clarification["reason"],
+                }
+
+            return final_response
+
+        # =====================================================
+        # 4. HYBRID RETRIEVAL
+        # =====================================================
+
         results = self.retriever.retrieve(
             question,
             top_k=top_k,
@@ -292,6 +351,7 @@ class QueryPipeline:
         contexts = self._build_contexts(results)
 
         if not contexts:
+
             final_response = self._build_response(
                 question=question,
                 intent=intent,
@@ -302,6 +362,9 @@ class QueryPipeline:
                     "hoặc loại phương tiện."
                 ),
             )
+
+            final_response["requires_clarification"] = False
+            final_response["clarification_reason"] = None
 
             if debug:
                 final_response["retrieval_results"] = results
@@ -314,7 +377,15 @@ class QueryPipeline:
 
             return final_response
 
+        # =====================================================
+        # 5. LEGAL CONTEXT RECONSTRUCTION
+        # =====================================================
+
         contexts = self._reconstruct_contexts(contexts)
+
+        # =====================================================
+        # 6. LEGAL EVIDENCE SELECTION
+        # =====================================================
 
         evidence_result = self._select_evidence(
             question=question,
@@ -327,6 +398,7 @@ class QueryPipeline:
         )
 
         if not selected_contexts:
+
             final_response = self._build_response(
                 question=question,
                 intent=intent,
@@ -341,6 +413,9 @@ class QueryPipeline:
                 retrieved_chunks=len(contexts),
             )
 
+            final_response["requires_clarification"] = False
+            final_response["clarification_reason"] = None
+
             if debug:
                 final_response["retrieval_results"] = results
                 final_response["legal_contexts"] = contexts
@@ -348,12 +423,20 @@ class QueryPipeline:
 
             return final_response
 
+        # =====================================================
+        # 7. GROUNDED ANSWER GENERATION
+        # =====================================================
+
         response = self.answer_generator.generate(
             question=question,
             contexts=selected_contexts,
             recipient=recipient,
             as_of=as_of,
         )
+
+        # =====================================================
+        # 8. FINAL RESPONSE
+        # =====================================================
 
         final_response = self._build_response(
             question=question,
@@ -364,6 +447,9 @@ class QueryPipeline:
             retrieved_chunks=len(contexts),
             selected_evidence_count=len(selected_contexts),
         )
+
+        final_response["requires_clarification"] = False
+        final_response["clarification_reason"] = None
 
         if debug:
             final_response["retrieval_results"] = results

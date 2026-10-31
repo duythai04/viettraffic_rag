@@ -1,0 +1,435 @@
+{
+  "name": "VietTraffic RAG E2E Evaluation",
+  "generated_at": "2026-10-31T17:55:11.295243+00:00",
+  "top_k": 5,
+  "total_tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "metrics": {
+    "answer_safety": {
+      "passed": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "clarification": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "clarification_has_message": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "clarification_no_citations": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "clarification_no_evidence": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "clarification_no_retrieval": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "clarification_reason": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "clarification_unverified": {
+      "passed": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "evidence_hit_at_k": {
+      "passed": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "evidence_top1": {
+      "passed": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "intent": {
+      "passed": 10,
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "retrieval_hit_at_k": {
+      "passed": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "role": {
+      "passed": 3,
+      "total": 3,
+      "accuracy": 1.0
+    },
+    "vehicle": {
+      "passed": 7,
+      "total": 7,
+      "accuracy": 1.0
+    },
+    "verified": {
+      "passed": 10,
+      "total": 10,
+      "accuracy": 1.0
+    }
+  },
+  "results": [
+    {
+      "id": "helmet_driver",
+      "question": "Người điều khiển xe máy không đội mũ bảo hiểm bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "role": true,
+        "retrieval_hit_at_k": true,
+        "evidence_hit_at_k": true,
+        "evidence_top1": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 1,
+        "query_vehicle": "motorcycle",
+        "query_role": "driver",
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d",
+          "168-2024-ND-CP_dieu-19_khoan-1"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h"
+        ],
+        "answer": "Hành vi không đội mũ bảo hiểm khi điều khiển xe máy hoặc đội mũ bảo hiểm không cài quai đúng quy cách là vi phạm quy định về an toàn giao thông. \n\nCăn cứ pháp luật tương ứng là: **Điểm h Khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP**. \n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "citations": [
+          "Điểm h Khoản 2 Điều 7"
+        ]
+      },
+      "duration_seconds": 2.531
+    },
+    {
+      "id": "helmet_driver_passenger",
+      "question": "Người lái xe máy chở người ngồi sau không đội mũ bảo hiểm bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "role": true,
+        "retrieval_hit_at_k": true,
+        "evidence_hit_at_k": true,
+        "evidence_top1": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 1,
+        "query_vehicle": "motorcycle",
+        "query_role": "driver_responsible_for_passenger",
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i"
+        ],
+        "answer": "Hành vi lái xe máy chở người ngồi sau không đội mũ bảo hiểm vi phạm quy định tại điểm i khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP. Cụ thể, người lái xe không đảm bảo an toàn cho người ngồi sau bằng cách không đội mũ bảo hiểm hoặc đội mũ không đúng quy cách.\n\nCăn cứ pháp luật tương ứng là:\n- Điểm i Khoản 2 Điều 7 Nghị định 168/2024/NĐ-CP.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "citations": [
+          "Điểm i Khoản 2 Điều 7"
+        ]
+      },
+      "duration_seconds": 3.255
+    },
+    {
+      "id": "helmet_passenger",
+      "question": "Người ngồi sau xe máy không đội mũ bảo hiểm bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "role": true,
+        "retrieval_hit_at_k": true,
+        "evidence_hit_at_k": true,
+        "evidence_top1": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 1,
+        "query_vehicle": "motorcycle",
+        "query_role": "passenger",
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-đ",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-d"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-12_khoan-5_diem-b"
+        ],
+        "answer": "Hành vi không đội mũ bảo hiểm khi ngồi sau xe máy vi phạm quy định về an toàn giao thông. Cụ thể, theo **Điểm b Khoản 5 Điều 12** của Nghị định 168/2024/NĐ-CP, người tham gia giao thông trên mô tô, xe máy phải đội mũ bảo hiểm đúng quy cách.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "citations": [
+          "Điểm b Khoản 5 Điều 12"
+        ]
+      },
+      "duration_seconds": 2.15
+    },
+    {
+      "id": "red_light_motorcycle",
+      "question": "Xe máy vượt đèn đỏ bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 1,
+        "query_vehicle": "motorcycle",
+        "query_role": null,
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-8_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-13_khoan-2_diem-a"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-7_diem-c"
+        ],
+        "answer": "Hành vi xe máy vượt đèn đỏ được quy định là \"Không chấp hành hiệu lệnh của đèn tín hiệu giao thông\". \n\nCăn cứ pháp luật tương ứng là: **Điểm c Khoản 7 Điều 7 Nghị định 168/2024/NĐ-CP**.\n\nHiện tại, tôi chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "citations": [
+          "Điểm c Khoản 7 Điều 7"
+        ]
+      },
+      "duration_seconds": 1.795
+    },
+    {
+      "id": "red_light_car",
+      "question": "Ô tô vượt đèn đỏ bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 1,
+        "query_vehicle": "car",
+        "query_role": null,
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-13_khoan-2_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-b",
+          "168-2024-ND-CP_dieu-6_khoan-1_diem-a",
+          "168-2024-ND-CP_dieu-7_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-c"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-b"
+        ],
+        "answer": "Hành vi ô tô vượt đèn đỏ được quy định là \"Không chấp hành hiệu lệnh của đèn tín hiệu giao thông\". \n\nCăn cứ pháp luật tương ứng là: **Điểm b Khoản 9 Điều 6 Nghị định 168/2024/NĐ-CP**.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "citations": [
+          "Điểm b Khoản 9 Điều 6"
+        ]
+      },
+      "duration_seconds": 1.9
+    },
+    {
+      "id": "speed_motorcycle",
+      "question": "Xe máy chạy quá tốc độ bị xử phạt thế nào?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "clarification": true,
+        "clarification_reason": true,
+        "clarification_no_retrieval": true,
+        "clarification_no_evidence": true,
+        "clarification_has_message": true,
+        "clarification_unverified": true,
+        "clarification_no_citations": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": true,
+        "clarification_reason": "missing_speed_excess",
+        "retrieved_chunks": 0,
+        "selected_evidence_count": 0,
+        "query_vehicle": null,
+        "query_role": null,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "answer": "Mức xử phạt đối với hành vi chạy quá tốc độ phụ thuộc vào số km/h vượt quá tốc độ cho phép. Bạn vui lòng cho biết phương tiện đã vượt tốc độ quy định bao nhiêu km/h để tôi xác định điều khoản phù hợp.",
+        "citations": []
+      },
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "alcohol_car",
+      "question": "Người lái ô tô có nồng độ cồn bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 3,
+        "query_vehicle": "car",
+        "query_role": "driver",
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-11_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-c",
+          "168-2024-ND-CP_dieu-6_khoan-11_diem-b",
+          "168-2024-ND-CP_dieu-9_khoan-4_diem-b"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-6_khoan-11_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-9_diem-a",
+          "168-2024-ND-CP_dieu-6_khoan-6_diem-c"
+        ],
+        "answer": "Hành vi điều khiển ô tô mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililit máu hoặc vượt qua 0,4 miligam/1 lít khí thở là vi phạm quy định về an toàn giao thông.\n\nCăn cứ pháp luật tương ứng là:\n- Điểm a Khoản 11 Điều 6 Nghị định 168/2024/NĐ-CP.\n\nHiện tại, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện có.",
+        "citations": [
+          "Điểm a Khoản 11 Điều 6"
+        ]
+      },
+      "duration_seconds": 2.039
+    },
+    {
+      "id": "license_motorcycle",
+      "question": "Không có giấy phép lái xe máy bị phạt bao nhiêu?",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "vehicle": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "legal_fine",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 5,
+        "selected_evidence_count": 1,
+        "query_vehicle": "motorcycle",
+        "query_role": "driver",
+        "retrieved_ids": [
+          "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+          "168-2024-ND-CP_dieu-19_khoan-1",
+          "168-2024-ND-CP_dieu-50_khoan-1_diem-b",
+          "168-2024-ND-CP_dieu-32_khoan-8_diem-đ",
+          "168-2024-ND-CP_dieu-13_khoan-13_diem-c"
+        ],
+        "selected_ids": [
+          "168-2024-ND-CP_dieu-50_khoan-1_diem-b"
+        ],
+        "answer": "Hành vi không có giấy phép lái xe máy được coi là vi phạm hành chính. Căn cứ pháp luật liên quan đến việc xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ không được nêu rõ trong thông tin bạn cung cấp. \n\nCăn cứ pháp luật hiện có là \"Điểm b Khoản 1 Điều 50\" của Nghị định 168/2024/NĐ-CP, tuy nhiên, nội dung này không đề cập cụ thể đến mức phạt cho hành vi không có giấy phép lái xe.\n\nDo đó, chưa thể xác nhận mức tiền phạt cho hành vi này từ dữ liệu hiện tại.",
+        "citations": [
+          "Điểm b Khoản 1 Điều 50"
+        ]
+      },
+      "duration_seconds": 2.354
+    },
+    {
+      "id": "greeting",
+      "question": "Xin chào",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "greeting",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 0,
+        "selected_evidence_count": 0,
+        "query_vehicle": null,
+        "query_role": null,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "answer": "Xin chào! Tôi là VietTraffic AI, trợ lý hỗ trợ tra cứu quy định pháp luật giao thông đường bộ Việt Nam. Bạn muốn tìm hiểu vấn đề gì?",
+        "citations": []
+      },
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "out_of_scope",
+      "question": "Hãy hướng dẫn tôi nấu món phở bò",
+      "passed": true,
+      "checks": {
+        "intent": true,
+        "verified": true,
+        "answer_safety": true
+      },
+      "actual": {
+        "intent": "out_of_scope",
+        "verified": false,
+        "requires_clarification": false,
+        "clarification_reason": null,
+        "retrieved_chunks": 0,
+        "selected_evidence_count": 0,
+        "query_vehicle": null,
+        "query_role": null,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "answer": "Tôi hiện tập trung hỗ trợ tra cứu pháp luật giao thông đường bộ Việt Nam. Bạn có thể hỏi về hành vi vi phạm, quy định hoặc mức xử phạt.",
+        "citations": []
+      },
+      "duration_seconds": 0.0
+    }
+  ]
+}

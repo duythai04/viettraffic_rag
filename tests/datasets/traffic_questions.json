@@ -1,0 +1,82 @@
+{
+  "dataset_name": "viettraffic_e2e_v1",
+  "description": "End-to-end evaluation for VietTraffic RAG",
+  "test_cases": [
+    {
+      "id": "helmet_driver",
+      "question": "Người điều khiển xe máy không đội mũ bảo hiểm bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "motorcycle",
+      "expected_role": "driver",
+      "expected_chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-h",
+      "expected_verified": false
+    },
+    {
+      "id": "helmet_driver_passenger",
+      "question": "Người lái xe máy chở người ngồi sau không đội mũ bảo hiểm bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "motorcycle",
+      "expected_role": "driver_responsible_for_passenger",
+      "expected_chunk_id": "168-2024-ND-CP_dieu-7_khoan-2_diem-i",
+      "expected_verified": false
+    },
+    {
+      "id": "helmet_passenger",
+      "question": "Người ngồi sau xe máy không đội mũ bảo hiểm bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "motorcycle",
+      "expected_role": "passenger",
+      "expected_chunk_id": "168-2024-ND-CP_dieu-12_khoan-5_diem-b",
+      "expected_verified": false
+    },
+    {
+      "id": "red_light_motorcycle",
+      "question": "Xe máy vượt đèn đỏ bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "motorcycle",
+      "expected_verified": false
+    },
+    {
+      "id": "red_light_car",
+      "question": "Ô tô vượt đèn đỏ bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "car",
+      "expected_verified": false
+    },
+    {
+      "id": "speed_motorcycle",
+      "question": "Xe máy chạy quá tốc độ bị xử phạt thế nào?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "motorcycle",
+      "expected_verified": false,
+      "expected_requires_clarification": true,
+      "expected_clarification_reason": "missing_speed_excess"
+    },
+    {
+      "id": "alcohol_car",
+      "question": "Người lái ô tô có nồng độ cồn bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "car",
+      "expected_verified": false
+    },
+    {
+      "id": "license_motorcycle",
+      "question": "Không có giấy phép lái xe máy bị phạt bao nhiêu?",
+      "expected_intent": "legal_fine",
+      "expected_vehicle": "motorcycle",
+      "expected_verified": false
+    },
+    {
+      "id": "greeting",
+      "question": "Xin chào",
+      "expected_intent": "greeting",
+      "expected_verified": false
+    },
+    {
+      "id": "out_of_scope",
+      "question": "Hãy hướng dẫn tôi nấu món phở bò",
+      "expected_intent": "out_of_scope",
+      "expected_verified": false
+    }
+  ]
+}
